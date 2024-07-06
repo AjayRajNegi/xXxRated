@@ -1,4 +1,7 @@
-import React from "react";
+import React, { useState, useRef, useEffect } from "react";
+import gsap from "gsap";
+import { useGSAP } from "@gsap/react";
+import { Link } from "react-router-dom";
 import "../componenets/styles/Gallery.css";
 import d1 from "../componenets/images/dragon_1.jpg";
 import d2 from "../componenets/images/dragon_2.jpg";
@@ -10,12 +13,81 @@ import d7 from "../componenets/images/dragon_7.jpg";
 import d8 from "../componenets/images/dragon_8.jpg";
 import d9 from "../componenets/images/dragon_9.jpg";
 import d10 from "../componenets/images/dragon_10.jpg";
-import { Navigation } from "../componenets/Index";
 
 const Gallery = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const navRef = useRef(null);
+  const closeRef = useRef(null);
+  const tl = useRef(
+    gsap.timeline({ defaults: { duration: 0.8, ease: "expo.inOut" } }),
+  );
+
+  useEffect(() => {
+    tl.current
+      .to(navRef.current, { right: 0 })
+      .to(navRef.current, { height: "100vh" }, "-=.1")
+      .to(
+        "nav ul li a",
+        { opacity: 1, pointerEvents: "all", stagger: 0.2 },
+        "-=.8",
+      )
+      .to(closeRef.current, { opacity: 1, pointerEvents: "all" }, "-=.8")
+      .to("nav h2", { opacity: 1 }, "-=1")
+      .reverse();
+  }, []);
+
+  const toggleMenu = () => {
+    if (!isMenuOpen) {
+      tl.current.play();
+    } else {
+      tl.current.reverse();
+    }
+    setIsMenuOpen(!isMenuOpen);
+  };
+  useGSAP(() => {
+    gsap.from(".nav-main-text", 1.8, {
+      y: 200,
+      ease: "power4.out",
+      stagger: {
+        amount: 0.3,
+      },
+    });
+  });
   return (
     <>
-      <Navigation />
+      <div className="navBody">
+        <div className="body-container" onClick={toggleMenu}>
+          <div className="bars"></div>
+        </div>
+        <div className="nav-main">
+          <div className="nav-main-text font-bold">
+            GALLERY
+            <div className="nav-main-subtext text-2xl md:text-6xl">
+              Intensify your Taste.
+            </div>
+          </div>
+        </div>
+        <nav ref={navRef}>
+          <h2>XXXRated</h2>
+          <div className="close" ref={closeRef} onClick={toggleMenu}>
+            <div></div>
+          </div>
+          <ul>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/about">About</Link>
+            </li>
+            <li>
+              <Link to="/products">Products</Link>
+            </li>
+            <li>
+              <Link to="/gallery">Gallery</Link>
+            </li>
+          </ul>
+        </nav>
+      </div>
       <div className="galleryBody">
         <div className="banner">
           <div className="slider" style={{ "--quantity": 10 }}>

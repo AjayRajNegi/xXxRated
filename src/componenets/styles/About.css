@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+//Navigation CSS
+
 * {
   margin: 0;
   padding: 0;
@@ -55,7 +56,6 @@
   top: 5%;
   left: 3%;
 }
-
 .bars {
   width: 30px;
   height: 4px;

@@ -38,7 +38,6 @@ const Navigation = () => {
     gsap.from(".nav-main-text", 1.8, {
       y: 200,
       ease: "power4.out",
-      delay: 1,
       stagger: {
         amount: 0.3,
       },
@@ -47,7 +46,8 @@ const Navigation = () => {
 
   return (
     <div className="navBody">
-      <div className="body-container" onClick={toggleMenu}>
+      <p style={{ position: "absolute" }}>XXXRated</p>
+      <div className="body-container flex justify-between" onClick={toggleMenu}>
         <div className="bars"></div>
       </div>
       <div className="nav-main">

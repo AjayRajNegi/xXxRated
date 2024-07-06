@@ -39,7 +39,6 @@ const Products = () => {
     gsap.from(".nav-main-text", 1.8, {
       y: 200,
       ease: "power4.out",
-      delay: 1,
       stagger: {
         amount: 0.3,
       },
