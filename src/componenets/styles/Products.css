@@ -57,7 +57,7 @@
 
 .nav-main {
   height: 100vh;
-  /* background-image: url("../images/DSC03133.JPG"); */
+  background-image: url("../images/DSC03133.JPG");
   background-size: cover;
   display: flex;
   justify-content: center;
