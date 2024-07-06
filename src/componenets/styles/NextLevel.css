@@ -1,0 +1,11 @@
+.nextlevel-main {
+  background-image: url("../images/w.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+.nextlevel-main p {
+  font-size: clamp(3.2em, 14.2vw, 18.1em);
+  line-height: 0.9;
+  text-align: center;
+  color: white;
+}

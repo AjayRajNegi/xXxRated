@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@font-face {
+  font-family: Founder;
+  src: url(FoundersGroteskCondensed-Bold.ttf);
+}
+
+@font-face {
+  font-family: CardinalR;
+  src: url(cardinalfruitweb-regular.ttf);
+}
+
+@font-face {
+  font-family: Cardinali;
+  src: url(cardinalfruitweb-italic.ttf);
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@layer base {
+  @font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(/fonts/Roboto.woff2) format("woff2");
+  }
+}

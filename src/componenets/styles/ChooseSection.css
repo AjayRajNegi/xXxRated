@@ -1,0 +1,123 @@
+.spacer {
+  font-size: clamp(3.2em, 5.2vw, 6.1em);
+  line-height: 1.1;
+  padding: 4vw 0 0 4vw;
+  background: #ddd;
+  letter-spacing: -5px;
+}
+
+.gallery h1 {
+  font-size: clamp(2em, 4vw, 5em);
+  font-weight: 500;
+  line-height: 0.8;
+}
+
+.gallery p {
+  font-size: clamp(1.2em, 2.2vw, 3.1em);
+  line-height: 0.8;
+  padding-top: 25px;
+}
+
+.gallery {
+  display: flex;
+}
+
+.left {
+  width: 50%;
+  background: #ddd;
+}
+
+.right {
+  height: 100vh;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #ddd;
+}
+
+.desktopContent {
+  margin-left: auto;
+  margin-right: 10%;
+  width: 55%;
+}
+
+.desktopContentSection {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.desktopPhotos {
+  height: 40vw;
+  width: 22.5vw;
+  margin-right: auto;
+  margin-left: 10%;
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
+}
+
+.desktopPhoto {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.red {
+  background: red;
+}
+
+.green {
+  background: green;
+}
+
+.blue {
+  background: blue;
+}
+
+.pink {
+  background: pink;
+}
+
+.mobileContent {
+  display: none;
+  width: 80vw;
+}
+
+.mobileContent h1 {
+  margin-top: 10vw;
+  text-align: center;
+}
+.mobileContent p {
+  text-align: center;
+}
+.mobilePhoto {
+  margin: auto;
+  width: 63vw;
+  height: 112vw;
+  margin-top: 10vw;
+  border-radius: 6vw;
+}
+
+@media screen and (max-width: 599px) {
+  .left {
+    display: none;
+  }
+
+  .right {
+    height: auto;
+    width: 100%;
+    align-items: center;
+  }
+
+  .desktopPhotos {
+    display: none;
+  }
+
+  .mobileContent {
+    display: block;
+  }
+}
