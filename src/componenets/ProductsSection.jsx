@@ -1,5 +1,7 @@
 import React from "react";
-import zWhite from "./images/aerosol1.png";
+import gR from "./images/NoB/gR.png";
+import zW from "./images/NoB/zW.png";
+import nB from "./images/NoB/nB.png";
 import "./styles/ProductSection.css";
 
 const ProductsSection = () => {
@@ -22,15 +24,15 @@ const ProductsSection = () => {
         <div className="product-section-main grid grid-cols-1 gap-7 md:grid-cols-2 2xl:grid-cols-3">
           <div className="product-section-product">
             <p>ZIPLINE</p>
-            <img src={zWhite} alt="" />
+            <img src={zW} alt="" />
           </div>
           <div className="product-section-product">
             <p>NO-GAS</p>
-            <img src={zWhite} alt="" />
+            <img src={nB} alt="" />
           </div>
           <div className="product-section-product">
             <p>GAS</p>
-            <img src={zWhite} alt="" />
+            <img src={gR} alt="" />
           </div>
         </div>
         <hr className="product-section-hr" />

@@ -1,0 +1,16 @@
+.scrollerBody {
+  overflow-x: hidden;
+  width: 100%;
+}
+.page2 {
+  widht: 100%;
+  background-color: black;
+}
+.slider {
+  font-size: 15vw;
+  text-overflow: clip;
+  color: white;
+}
+.pin-spacer {
+  background-color: black;
+}

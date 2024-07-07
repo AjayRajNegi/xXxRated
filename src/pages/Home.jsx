@@ -7,9 +7,8 @@ import {
   ChooseSection,
   NextLevel,
   ScrollerGravity,
-  Footer,
 } from "../componenets/Index";
-import A from "../componenets/Testing/A";
+import Scroller from "../componenets/Scroller";
 
 const Home = () => {
   return (
@@ -20,7 +19,7 @@ const Home = () => {
       <ChooseSection />
       <ScrollerGravity />
       <NextLevel />
-      <A />
+      <Scroller />
     </>
   );
 };

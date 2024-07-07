@@ -24,8 +24,6 @@ const ChooseSection = () => {
     let mm = gsap.matchMedia();
 
     mm.add("(min-width: 600px)", () => {
-      console.log("desktop");
-
       ScrollTrigger.create({
         trigger: ".gallery",
         start: "top top",
@@ -48,10 +46,6 @@ const ChooseSection = () => {
           markers: false,
         });
       });
-
-      return () => {
-        console.log("mobile");
-      };
     });
   });
 

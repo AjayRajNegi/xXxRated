@@ -1,10 +1,24 @@
 import React, { useState, useRef, useEffect } from "react";
-import zWhite from "../componenets/images/aerosol1.png";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { Link } from "react-router-dom";
 import "../componenets/styles/Products.css";
 
+import zW from "../componenets/images/NoB/zW.png";
+import zB from "../componenets/images/NoB/zB.png";
+import zBl from "../componenets/images/NoB/zBl.png";
+
+import nB from "../componenets/images/NoB/nB.png";
+import nC from "../componenets/images/NoB/nC.png";
+import nD from "../componenets/images/NoB/nD.png";
+import nH from "../componenets/images/NoB/nH.png";
+
+import gB from "../componenets/images/NoB/gB.png";
+import gG from "../componenets/images/NoB/gG.png";
+import gO from "../componenets/images/NoB/gO.png";
+import gP from "../componenets/images/NoB/gP.png";
+import gR from "../componenets/images/NoB/gR.png";
+import { Footer } from "../componenets/Index";
 const Products = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const navRef = useRef(null);
@@ -101,15 +115,15 @@ const Products = () => {
           </div>
           <div className="products-product">
             <p>ZIP-WHITE</p>
-            <img src={zWhite} alt="" />
+            <img src={zW} alt="" />
           </div>
           <div className="products-product">
             <p>ZIP-BLUE</p>
-            <img src={zWhite} alt="" />
+            <img src={zB} alt="" />
           </div>
           <div className="products-product">
             <p>ZIP-BLACK</p>
-            <img src={zWhite} alt="" />
+            <img src={zBl} alt="" />
           </div>
         </div>
         {/* No Gas Container */}
@@ -119,19 +133,19 @@ const Products = () => {
           </div>
           <div className="products-product">
             <p>CLIMAX NO-GAS</p>
-            <img src={zWhite} alt="" />
+            <img src={nC} alt="" />
           </div>
           <div className="products-product">
             <p>BOLD NO-GAS</p>
-            <img src={zWhite} alt="" />
+            <img src={nB} alt="" />
           </div>
           <div className="products-product">
             <p>DIRTY NO-GAS</p>
-            <img src={zWhite} alt="" />
+            <img src={nD} alt="" />
           </div>
           <div className="products-product">
             <p>HARD NO-GAS</p>
-            <img src={zWhite} alt="" />
+            <img src={nH} alt="" />
           </div>
         </div>
         {/* Gas Container */}
@@ -141,24 +155,29 @@ const Products = () => {
           </div>
           <div className="products-product">
             <p>INTIMIDATE R</p>
-            <img src={zWhite} alt="" />
+            <img src={gO} alt="" />
           </div>
           <div className="products-product">
             <p>PLEASURE B</p>
-            <img src={zWhite} alt="" />
+            <img src={gB} alt="" />
           </div>
           <div className="products-product">
             <p>NAUGHTY P</p>
-            <img src={zWhite} alt="" />
+            <img src={gP} alt="" />
           </div>
           <div className="products-product">
             <p>FOREPLAY G</p>
-            <img src={zWhite} alt="" />
+            <img src={gG} alt="" />
+          </div>
+          <div className="products-product">
+            <p>SENSUAL R</p>
+            <img src={gR} alt="" />
           </div>
         </div>
-
-        <hr className="products-hr" />
+        {/* 
+        <hr className="products-hr" /> */}
       </div>
+      <Footer />
     </>
   );
 };
