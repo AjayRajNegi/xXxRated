@@ -9,6 +9,7 @@ import {
   ScrollerGravity,
   Footer,
 } from "../componenets/Index";
+import A from "../componenets/Testing/A";
 
 const Home = () => {
   return (
@@ -17,9 +18,9 @@ const Home = () => {
       <Mask />
       <ProductsSection />
       <ChooseSection />
-      <NextLevel />
       <ScrollerGravity />
-      <Footer />
+      <NextLevel />
+      <A />
     </>
   );
 };

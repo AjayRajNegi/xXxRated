@@ -1,54 +1,36 @@
 import React from "react";
-import "./A.css";
-
-import { useEffect, useRef } from "react";
 import gsap from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
+import ScrollTrigger from "gsap/ScrollTrigger";
+import "./A.css";
+import { useGSAP } from "@gsap/react";
+import { Footer } from "../Index";
+gsap.registerPlugin(ScrollTrigger);
 
 const A = () => {
-  const racesWrapperRef = useRef(null);
-  const racesRef = useRef(null);
-
-  useEffect(() => {
-    gsap.registerPlugin(ScrollTrigger);
-
-    const races = racesRef.current;
-    const racesWidth = races.scrollWidth;
-    const scrollAmount = -(racesWidth - window.innerWidth);
-
-    const tween = gsap.to(races, {
-      x: scrollAmount,
-      duration: 3,
-      ease: "none",
+  useGSAP(() => {
+    gsap.to(".page2 .slider", {
+      transform: "translateX(-150%)",
+      duration: 2,
+      scrollTrigger: {
+        trigger: ".page2",
+        scroller: "body",
+        markers: true,
+        start: "top 0%",
+        end: "top -100%",
+        scrub: 5,
+        pin: true,
+        pinSpacing: true,
+      },
     });
-
-    ScrollTrigger.create({
-      trigger: racesWrapperRef.current,
-      start: "top top", // Fixed the start position
-      end: () => `+=${scrollAmount}`, // Corrected the end position
-      pin: true,
-      animation: tween,
-      scrub: 1,
-      invalidateOnRefresh: true,
-      markers: false, // Removed markers for cleaner presentation
-    });
-  }, []);
-
+  });
   return (
-    <div>
-      <div className="space-50vh lightBG"></div>
-
-      <div className="racesWrapper" ref={racesWrapperRef}>
-        <div className="races" ref={racesRef}>
-          <h2>Monaco</h2>
-          <h2>Austria</h2>
-          <h2>Hungary</h2>
-          <h2>Netherlands</h2>
-          <h2>Japan</h2>
+    <div className="aBod">
+      <div class="page2">
+        <div className="slider">
+          EXPERIENCE_<span className="italic">peak_with</span>_US
         </div>
+        <Footer />
       </div>
-
-      <div className="space-100vh lightBG"></div>
     </div>
   );
 };
