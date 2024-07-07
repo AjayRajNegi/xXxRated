@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import www from "../componenets/images/icons8-web.gif";
 import bw from "../componenets/images/bwN.png";
 import "../componenets/styles/About.css";
+import { Footer } from "../componenets/Index";
 
 const About = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -71,7 +72,7 @@ const About = () => {
               <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="/about">About</Link>
+              <Link to="/contact">Contact</Link>
             </li>
             <li>
               <Link to="/products">Products</Link>
@@ -128,6 +129,8 @@ const About = () => {
         </div>
         <hr className="mask-hr" />
       </div>
+      {/* Footer */}
+      <Footer />
     </>
   );
 };

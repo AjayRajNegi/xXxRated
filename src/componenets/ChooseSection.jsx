@@ -108,7 +108,7 @@ const ChooseSection = () => {
                 src={vS1}
                 controls
                 preload="none"
-                autoplay="autoplay"
+                autoPlay
                 loop
                 muted
               ></video>
@@ -126,7 +126,7 @@ const ChooseSection = () => {
                 muted
                 loop
                 preload="none"
-                autoplay="autoplay"
+                autoPlay
               ></video>
             </div>
 
@@ -142,7 +142,7 @@ const ChooseSection = () => {
                 muted
                 loop
                 preload="none"
-                autoplay="autoplay"
+                autoPlay
               ></video>
             </div>
 
@@ -158,7 +158,7 @@ const ChooseSection = () => {
                 muted
                 loop
                 preload="none"
-                autoplay="autoplay"
+                autoPlay
               ></video>
             </div>
           </div>
@@ -171,7 +171,7 @@ const ChooseSection = () => {
                 muted
                 loop
                 preload="none"
-                autoplay="autoplay"
+                autoPlay
               ></video>
             </div>
             <div className="desktopPhoto green">
@@ -181,7 +181,7 @@ const ChooseSection = () => {
                 muted
                 loop
                 preload="none"
-                autoplay="autoplay"
+                autoPlay
               ></video>
             </div>
             <div className="desktopPhoto pink">
@@ -191,7 +191,7 @@ const ChooseSection = () => {
                 muted
                 loop
                 preload="none"
-                autoplay="autoplay"
+                autoPlay
               ></video>
             </div>
             <div className="desktopPhoto blue">
@@ -201,7 +201,7 @@ const ChooseSection = () => {
                 muted
                 loop
                 preload="none"
-                autoplay="autoplay"
+                autoPlay
               ></video>
             </div>
           </div>

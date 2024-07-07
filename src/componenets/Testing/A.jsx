@@ -25,7 +25,7 @@ const A = () => {
   });
   return (
     <div className="aBod">
-      <div class="page2">
+      <div className="page2">
         <div className="slider">
           EXPERIENCE_<span className="italic">peak_with</span>_US
         </div>

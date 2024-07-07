@@ -84,7 +84,7 @@ const ScrollerGravity = () => {
         <div id="center" className="w-full bg-black">
           /*{" "}
           <div
-            class="content flex w-full flex-col items-center justify-center gap-4 text-white"
+            className="content flex w-full flex-col items-center justify-center gap-4 text-white"
             style={{ marginTop: "100%" }}
           >
             <div className="btn">

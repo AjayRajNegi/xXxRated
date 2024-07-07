@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Arial";
 }
 .mask {
   padding: 25px 4vw 0vw 4vw;

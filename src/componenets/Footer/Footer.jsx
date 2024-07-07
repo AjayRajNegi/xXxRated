@@ -22,9 +22,9 @@ const Footer = () => {
               <Link to="/products">Products</Link>
             </p>
             <p className="footer-links mb-1 text-sm">
-              <p className="footer-links mb-1 text-sm">
-                <Link to="/gallery">Gallery</Link>
-              </p>
+              <Link to="/gallery">Gallery</Link>
+            </p>
+            <p className="footer-links mb-1 text-sm">
               <Link to="/about">Contact</Link>
             </p>
             <p className="footer-links mb-1 text-sm">
