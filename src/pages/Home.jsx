@@ -17,7 +17,7 @@ const Home = () => {
       <Mask />
       <ProductsSection />
       <ChooseSection />
-      <ScrollerGravity />
+      {/* <ScrollerGravity /> */}
       <NextLevel />
       <Scroller />
     </>
