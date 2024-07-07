@@ -109,6 +109,7 @@ const ChooseSection = () => {
                 controls
                 preload="none"
                 autoplay="autoplay"
+                loop
                 muted
               ></video>
             </div>
@@ -123,6 +124,7 @@ const ChooseSection = () => {
                 src={vS2}
                 controls
                 muted
+                loop
                 preload="none"
                 autoplay="autoplay"
               ></video>
@@ -138,6 +140,7 @@ const ChooseSection = () => {
                 src={vS3}
                 controls
                 muted
+                loop
                 preload="none"
                 autoplay="autoplay"
               ></video>
@@ -153,6 +156,7 @@ const ChooseSection = () => {
                 src={vS1}
                 controls
                 muted
+                loop
                 preload="none"
                 autoplay="autoplay"
               ></video>
@@ -165,6 +169,7 @@ const ChooseSection = () => {
                 src={vS1}
                 controls
                 muted
+                loop
                 preload="none"
                 autoplay="autoplay"
               ></video>
@@ -174,6 +179,7 @@ const ChooseSection = () => {
                 src={vS2}
                 controls
                 muted
+                loop
                 preload="none"
                 autoplay="autoplay"
               ></video>
@@ -183,6 +189,7 @@ const ChooseSection = () => {
                 src={vS3}
                 controls
                 muted
+                loop
                 preload="none"
                 autoplay="autoplay"
               ></video>
@@ -192,6 +199,7 @@ const ChooseSection = () => {
                 src={vS1}
                 controls
                 muted
+                loop
                 preload="none"
                 autoplay="autoplay"
               ></video>
