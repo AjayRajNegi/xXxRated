@@ -59,7 +59,11 @@ const ScrollerGravity = () => {
   });
   return (
     <>
-      <div id="main" className="relative h-screen w-full">
+      <div
+        id="main"
+        className="relative h-screen w-full"
+        style={{ marginBottom: "50vh" }}
+      >
         <div
           id="top"
           className="absolute top-0 h-1/2 w-full overflow-y-hidden bg-white"

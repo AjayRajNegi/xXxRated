@@ -104,7 +104,13 @@ const ChooseSection = () => {
               passion, love, and anger.
             </p>
             <div className="mobilePhoto red">
-              <video src={vS1} controls autoplay="autoplay" muted></video>
+              <video
+                src={vS1}
+                controls
+                preload="none"
+                autoplay="autoplay"
+                muted
+              ></video>
             </div>
 
             <h1>PRODUCTS QUALITY</h1>
@@ -113,7 +119,13 @@ const ChooseSection = () => {
               harmony.
             </p>
             <div className="mobilePhoto green">
-              <video src={vS2} controls muted autoplay="autoplay"></video>
+              <video
+                src={vS2}
+                controls
+                muted
+                preload="none"
+                autoplay="autoplay"
+              ></video>
             </div>
 
             <h1>CUSTOMIZATION</h1>
@@ -122,7 +134,13 @@ const ChooseSection = () => {
               and sweetness.
             </p>
             <div className="mobilePhoto pink">
-              <video src={vS3} controls muted autoplay="autoplay"></video>
+              <video
+                src={vS3}
+                controls
+                muted
+                preload="none"
+                autoplay="autoplay"
+              ></video>
             </div>
 
             <h1>PERSONAL PREFERENCES</h1>
@@ -131,22 +149,52 @@ const ChooseSection = () => {
               reliability.
             </p>
             <div className="mobilePhoto blue">
-              <video src={vS1} controls muted autoplay="autoplay"></video>
+              <video
+                src={vS1}
+                controls
+                muted
+                preload="none"
+                autoplay="autoplay"
+              ></video>
             </div>
           </div>
 
           <div className="desktopPhotos">
             <div className="desktopPhoto red">
-              <video src={vS1} controls muted autoplay="autoplay"></video>
+              <video
+                src={vS1}
+                controls
+                muted
+                preload="none"
+                autoplay="autoplay"
+              ></video>
             </div>
             <div className="desktopPhoto green">
-              <video src={vS2} controls muted autoplay="autoplay"></video>
+              <video
+                src={vS2}
+                controls
+                muted
+                preload="none"
+                autoplay="autoplay"
+              ></video>
             </div>
             <div className="desktopPhoto pink">
-              <video src={vS3} controls muted autoplay="autoplay"></video>
+              <video
+                src={vS3}
+                controls
+                muted
+                preload="none"
+                autoplay="autoplay"
+              ></video>
             </div>
             <div className="desktopPhoto blue">
-              <video src={vS1} controls muted autoplay="autoplay"></video>
+              <video
+                src={vS1}
+                controls
+                muted
+                preload="none"
+                autoplay="autoplay"
+              ></video>
             </div>
           </div>
         </div>

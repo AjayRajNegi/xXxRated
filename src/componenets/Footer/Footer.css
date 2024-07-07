@@ -1,0 +1,19 @@
+.footer {
+  background-color: black;
+  padding: 50px 4vw 0 4vw;
+  color: white;
+}
+.footer-hr {
+  margin: 20px 0 20px 0;
+  color: gray;
+}
+.footer-heading {
+  padding-top: 20px;
+}
+.footer-links {
+  color: gray;
+}
+.footer-footer {
+  background-color: black;
+  color: gray;
+}

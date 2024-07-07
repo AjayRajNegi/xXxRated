@@ -19,6 +19,7 @@ const Home = () => {
       <ChooseSection />
       <NextLevel />
       <ScrollerGravity />
+      <Footer />
     </>
   );
 };

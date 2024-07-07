@@ -46,7 +46,6 @@ const Navigation = () => {
 
   return (
     <div className="navBody">
-      <p style={{ position: "absolute" }}>XXXRated</p>
       <div className="body-container flex justify-between" onClick={toggleMenu}>
         <div className="bars"></div>
       </div>
@@ -63,7 +62,7 @@ const Navigation = () => {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/about">About</Link>
+            <Link to="/contact">Contact</Link>
           </li>
           <li>
             <Link to="/products">Products</Link>
