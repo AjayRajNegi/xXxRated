@@ -53,9 +53,11 @@ const Navigation = () => {
 
   return (
     <header className="relative z-50 block md:hidden">
-      <nav className="flex items-center justify-between px-2 py-6">
+      <nav className="flex items-center justify-between px-3 py-3">
         <div className="flex items-center space-x-2">
-          <h1 className="text-xl font-bold text-white md:text-2xl">XXXRATED</h1>
+          <h1 className="text-xl font-semibold text-white md:text-2xl">
+            XXXRATED
+          </h1>
           {/* <img
             src="./blacklogo .png"
             alt="logo image"
