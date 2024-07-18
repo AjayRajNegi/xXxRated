@@ -28,7 +28,7 @@ const LoadingAnimation = () => {
                 variants={marquee}
                 initial="hidden"
                 animate="show"
-                className="cursor-pointer text-[50px] font-semibold tracking-tight text-white md:text-[100px]"
+                className="cursor-pointer text-[75px] font-semibold tracking-tight text-white md:text-[100px]"
               >
                 BEYOND IMAGINATION
               </motion.h1>
