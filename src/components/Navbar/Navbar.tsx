@@ -18,7 +18,7 @@ const Navbar = () => {
         }}
       >
         <li className="rounded-full px-2.5 transition-all duration-200 ease-linear hover:bg-[#ffffff66]">
-          <Link to="/" className="font-normal text-black">
+          <Link to="/" className="font-normal text-white">
             HOME
           </Link>
         </li>
@@ -28,12 +28,12 @@ const Navbar = () => {
           </Link>
         </li>
         <li className="rounded-full px-2.5 transition-all duration-200 ease-linear hover:bg-[#fafaf966]">
-          <Link to="/contact" className="font-normal text-black">
+          <Link to="/contact" className="font-normal text-white">
             CONTACT
           </Link>
         </li>
         <li className="ease-linears rounded-full px-2.5 transition-all duration-200 hover:bg-[#fafaf966]">
-          <Link to="/about" className="font-normal text-black">
+          <Link to="/about" className="font-normal text-white">
             ABOUT US
           </Link>
         </li>

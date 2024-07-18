@@ -52,9 +52,9 @@ const Navigation = () => {
   };
 
   return (
-    <header className="relative z-50 block md:hidden">
+    <header className="relative z-50 block w-full md:hidden">
       <nav className="flex items-center justify-between px-3 py-3">
-        <div className="flex items-center space-x-2">
+        <div className="">
           <h1 className="text-xl font-semibold text-white md:text-2xl">
             XXXRATED
           </h1>
@@ -75,7 +75,7 @@ const Navigation = () => {
             initial="initial"
             animate="animate"
             exit="exit"
-            className="fixed left-0 top-0 h-screen w-full origin-top bg-yellow-400 p-10 text-black"
+            className="fixed left-0 top-0 h-screen w-full origin-top bg-yellow-400 p-10 pt-5 text-black"
           >
             <div className="flex h-full flex-col">
               <div className="flex justify-between">

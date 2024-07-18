@@ -2,12 +2,12 @@ import { Navbar, Navigation } from "../../components/Index";
 
 const Product = () => {
   return (
-    <div className="">
-      <div className="h-max">
+    <div className="bg-red-600">
+      <div className="">
         <Navbar />
         <Navigation />
       </div>
-      <div className="product h-screen bg-red-200 pt-2 md:pt-16">
+      <div className="product bg-red-200 pt-2 md:pt-16">
         Product
         <h1>asdf</h1>
       </div>

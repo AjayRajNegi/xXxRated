@@ -4,7 +4,7 @@ import { AnimatePresence, motion } from "framer-motion";
 
 const FlyoutLinkBtn = () => {
   return (
-    <div className="flex justify-center font-normal text-black">
+    <div className="flex justify-center font-normal text-white">
       <FlyoutLink href="#" FlyoutContent={PricingContent}>
         PRODUCTS
       </FlyoutLink>
@@ -31,7 +31,7 @@ const FlyoutLink = ({
       onMouseLeave={() => setOpen(false)}
       className="relative h-fit w-fit"
     >
-      <Link to="/product" className="relative text-black">
+      <Link to="/product" className="relative text-white">
         {children}
         <span
           style={{

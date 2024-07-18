@@ -1,6 +1,9 @@
 export { default as LoadingAnimation } from "../components/LoadingAnimation/LoadingAnimation";
 export { default as Navbar } from "../components/Navbar/Navbar";
 export { default as Navigation } from "../components/Navbar/Navigation";
+export { default as Home } from "../pages/Home/Home";
 export { default as Product } from "../pages/Products/Product";
 export { default as Contact } from "../pages/Contact/Contact";
 export { default as About } from "../pages/About/About";
+export { default as Mask } from "./Mask/Mask";
+export { default as Squishy } from "./Squishy/Squishy";

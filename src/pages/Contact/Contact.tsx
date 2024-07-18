@@ -4,7 +4,7 @@ const Contact = () => {
     <>
       <Navbar />
       <Navigation />
-      <div className="h-screen bg-white">Contact</div>;
+      <div className="h-screen bg-white">Contact</div>
     </>
   );
 };

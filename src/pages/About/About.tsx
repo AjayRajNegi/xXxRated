@@ -5,7 +5,7 @@ const About = () => {
     <>
       <Navbar />
       <Navigation />
-      <div className="h-screen bg-white">About</div>;
+      <div className="h-screen bg-white">About</div>
     </>
   );
 };
