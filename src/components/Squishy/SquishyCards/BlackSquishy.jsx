@@ -23,7 +23,7 @@ const Card = () => {
           scale: 1.05,
         },
       }}
-      className="relative h-96 w-80 shrink-0 overflow-hidden rounded-xl bg-neutral-600 p-8"
+      className="relative h-[22.8rem] w-[19rem] shrink-0 overflow-hidden rounded-xl bg-neutral-600 p-8 md:h-[24rem] md:w-[20rem]"
     >
       <div className="relative z-10 pt-10 text-white">
         {/* <span className="mb-3 block w-fit rounded-full bg-white/30 px-3 py-0.5 text-sm font-light text-white">

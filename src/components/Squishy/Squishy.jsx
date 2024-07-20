@@ -12,7 +12,7 @@ const Squishy = () => {
           <ButtonWrapper />
         </a>
       </div>
-      <div className="flex flex-col justify-between bg-black px-8 md:flex-row">
+      <div className="grid grid-cols-1 justify-between bg-black px-2 md:grid-cols-2 md:flex-row md:px-8 lg:grid-cols-3">
         <RedSquishy />
         <BlackSquishy />
         <BlueSquishy />
