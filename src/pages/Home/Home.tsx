@@ -1,4 +1,5 @@
 import { LoadingAnimation, Mask, Squishy } from "../../components/Index";
+import { HeroScrollDemo } from "../../components/Scroll/HeroScrollDemo";
 
 const Home = () => {
   return (
@@ -6,6 +7,7 @@ const Home = () => {
       <LoadingAnimation />
       <Mask />
       <Squishy />
+      <HeroScrollDemo />
       <div className="h-screen"></div>
     </div>
   );
