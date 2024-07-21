@@ -7,3 +7,5 @@ export { default as Contact } from "../pages/Contact/Contact";
 export { default as About } from "../pages/About/About";
 export { default as Mask } from "./Mask/Mask";
 export { default as Squishy } from "./Squishy/Squishy";
+export { default as HeroScrollDemo } from "./Scroll/HeroScrollDemo";
+export { default as HorizontalCarousal } from "./HorizontalCarousal/HorizontalCarousal";

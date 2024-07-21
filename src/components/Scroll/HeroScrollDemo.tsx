@@ -1,7 +1,7 @@
 import { ContainerScroll } from "./ContainerScroll";
 import i from "/coat.webp";
 
-export function HeroScrollDemo() {
+export default function HeroScrollDemo() {
   return (
     <div className="flex flex-col overflow-hidden">
       <ContainerScroll

@@ -1,5 +1,10 @@
-import { LoadingAnimation, Mask, Squishy } from "../../components/Index";
-import { HeroScrollDemo } from "../../components/Scroll/HeroScrollDemo";
+import {
+  LoadingAnimation,
+  Mask,
+  Squishy,
+  HeroScrollDemo,
+  HorizontalCarousal,
+} from "../../components/Index";
 
 const Home = () => {
   return (
@@ -8,6 +13,7 @@ const Home = () => {
       <Mask />
       <Squishy />
       <HeroScrollDemo />
+      <HorizontalCarousal />
       <div className="h-screen"></div>
     </div>
   );
