@@ -65,7 +65,7 @@ const Section2 = ({ scrollYProgress }) => {
         autoPlay
         loop
         muted
-        className="bg-black"
+        className="bg-black md:hidden"
       />
       <img
         src="/coat.webp"
