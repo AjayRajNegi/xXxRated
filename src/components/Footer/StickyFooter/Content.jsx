@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function Content() {
   return (
     <div className="flex h-full w-full flex-col justify-between bg-[#4E4E5A] px-12 py-8">
@@ -20,8 +18,8 @@ const Section1 = () => {
 const Section2 = () => {
   return (
     <div className="flex items-end justify-between">
-      <h1 className="mt-10 text-[14vw] leading-[0.8]">Sticky Footer</h1>
-      <p>©copyright</p>
+      <h1 className="mt-10 text-[14vw] leading-[0.8]">XXXRATED</h1>
+      <p>©copyrightXXXRated2024</p>
     </div>
   );
 };
