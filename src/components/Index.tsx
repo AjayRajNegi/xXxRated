@@ -11,4 +11,4 @@ export { default as HeroScrollDemo } from "./Scroll/HeroScrollDemo";
 export { default as HorizontalCarousal } from "./HorizontalCarousal/HorizontalCarousal";
 export { default as Perspective } from "./PerspectiveScroll/Perspective";
 export { default as HoverImageLinks } from "./Footer/HoverImageLinks";
-export { default as Footer } from "./Footer/StickyFooter/Footer1";
+export { default as Footer } from "./Footer/StickyFooter/Footer2";
