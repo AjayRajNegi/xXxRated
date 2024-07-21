@@ -72,7 +72,7 @@ const Section2 = ({ scrollYProgress }) => {
         src="/coat.webp"
         alt="img"
         placeholder="blur"
-        className="hidden h-full md:block"
+        className="mx-auto hidden h-full md:block"
       />
     </motion.div>
   );

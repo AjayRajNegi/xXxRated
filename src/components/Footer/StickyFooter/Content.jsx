@@ -9,7 +9,7 @@ export default function Content() {
 
 const Section1 = () => {
   return (
-    <div>
+    <div className="relative top-32 md:top-[40%]">
       <Nav />
     </div>
   );
@@ -18,7 +18,7 @@ const Section1 = () => {
 const Section2 = () => {
   return (
     <div className="flex items-end justify-between">
-      <h1 className="mt-10 text-[10vw] font-bold leading-[0.8] md:text-[14vw]">
+      <h1 className="mt-10 text-[12vw] font-bold leading-[0.8] md:text-[14vw]">
         XXXRATED
       </h1>
       <p className="hidden md:block">©copyrightXXXRated2024</p>

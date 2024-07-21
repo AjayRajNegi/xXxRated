@@ -12,6 +12,7 @@ const HorizontalCarousal = () => {
       </div> */}
 
       <HorizontalScrollCarousel />
+      <hr className="ml-[4vw] mr-[4vw] bg-black" />
     </>
   );
 };
