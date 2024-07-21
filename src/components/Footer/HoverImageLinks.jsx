@@ -2,7 +2,7 @@ import { useMotionValue, motion, useSpring, useTransform } from "framer-motion";
 import React, { useRef } from "react";
 import { FiArrowRight } from "react-icons/fi";
 
-export const HoverImageLinks = () => {
+const HoverImageLinks = () => {
   return (
     <section className="bg-neutral-950 p-4 md:p-8">
       <div className="mx-auto max-w-5xl">
@@ -140,3 +140,5 @@ const Link = ({ heading, imgSrc, subheading }) => {
     </motion.a>
   );
 };
+
+export default HoverImageLinks;

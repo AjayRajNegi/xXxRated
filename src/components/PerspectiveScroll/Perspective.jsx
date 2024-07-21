@@ -37,13 +37,15 @@ const Section1 = ({ scrollYProgress }) => {
       style={{ scale, rotate }}
       className="sticky top-0 flex h-screen flex-col items-center justify-center bg-white pb-[10vh] text-[8vw] font-semibold text-black md:text-[3.5vw]"
     >
-      <p>Scroll Perspective</p>
+      <p>
+        RELIVE <span className="italic">the</span>
+      </p>
       <div className="flex gap-4">
-        <p>Section</p>
+        <p>BEST</p>
         <div className="relative w-[12.5vw]">
           <img src="/P.jpg" alt="img" placeholder="blur" fill />
         </div>
-        <p>Transition</p>
+        <p className="italic">everyday.</p>
       </div>
     </motion.div>
   );
@@ -60,7 +62,6 @@ const Section2 = ({ scrollYProgress }) => {
     >
       <video
         src={vd1}
-        controls
         preload="none"
         autoPlay
         loop

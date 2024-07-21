@@ -9,3 +9,6 @@ export { default as Mask } from "./Mask/Mask";
 export { default as Squishy } from "./Squishy/Squishy";
 export { default as HeroScrollDemo } from "./Scroll/HeroScrollDemo";
 export { default as HorizontalCarousal } from "./HorizontalCarousal/HorizontalCarousal";
+export { default as Perspective } from "./PerspectiveScroll/Perspective";
+export { default as HoverImageLinks } from "./Footer/HoverImageLinks";
+export { default as Footer } from "./Footer/StickyFooter/Footer1";

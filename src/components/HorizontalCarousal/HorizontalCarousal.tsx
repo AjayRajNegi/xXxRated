@@ -4,19 +4,14 @@ import { useRef } from "react";
 const HorizontalCarousal = () => {
   return (
     <>
-      <div className="relative top-10 z-20 flex h-0 items-center justify-center bg-black tracking-tighter">
+      {/* <div className="relative top-10 z-20 flex h-0 items-center justify-center bg-black tracking-tighter">
         <div className="text-3xl font-semibold text-white md:text-6xl">
           RELIVE <span className="italic">the</span> BEST
           <span className="italic">everyday.</span>
         </div>
-      </div>
+      </div> */}
 
       <HorizontalScrollCarousel />
-      {/* <div className="flex h-48 items-center justify-center">
-        <span className="font-semibold uppercase text-neutral-500">
-          Scroll up
-        </span>
-      </div> */}
     </>
   );
 };
