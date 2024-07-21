@@ -34,7 +34,7 @@ const Section1 = ({ scrollYProgress }) => {
   return (
     <motion.div
       style={{ scale, rotate }}
-      className="sticky top-0 flex h-screen flex-col items-center justify-center bg-white pb-[10vh] text-[3.5vw] text-black"
+      className="sticky top-0 flex h-screen flex-col items-center justify-center bg-white pb-[10vh] text-[8vw] font-semibold text-black md:text-[3.5vw]"
     >
       <p>Scroll Perspective</p>
       <div className="flex gap-4">
