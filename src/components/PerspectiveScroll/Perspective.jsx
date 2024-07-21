@@ -1,5 +1,6 @@
 import { useScroll, useTransform, motion } from "framer-motion";
 import { useEffect, useRef } from "react";
+import vd1 from "/Sequence01comp.mp4";
 import Lenis from "lenis";
 
 export default function Perspective() {
@@ -53,20 +54,24 @@ const Section2 = ({ scrollYProgress }) => {
   const rotate = useTransform(scrollYProgress, [0, 1], [5, 0]);
 
   return (
-    <motion.div style={{ scale, rotate }} className="relative h-screen">
+    <motion.div
+      style={{ scale, rotate }}
+      className="relative h-screen bg-black"
+    >
+      <video
+        src={vd1}
+        controls
+        preload="none"
+        autoPlay
+        loop
+        muted
+        className="bg-black"
+      />
       <img
         src="/coat.webp"
         alt="img"
         placeholder="blur"
-        fill
         className="hidden h-full md:block"
-      />
-      <img
-        src="/bcomp.jpg"
-        alt="img"
-        placeholder="blur"
-        fill
-        className="block h-full md:hidden"
       />
     </motion.div>
   );
