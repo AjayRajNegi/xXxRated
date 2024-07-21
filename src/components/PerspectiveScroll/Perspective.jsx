@@ -73,15 +73,6 @@ const Section2 = ({ scrollYProgress }) => {
         placeholder="blur"
         className="hidden h-full md:block"
       />
-<<<<<<< HEAD
-=======
-      <img
-        src="/bcomp.jpg"
-        alt="img"
-        placeholder="blur"
-        className="block h-full md:hidden"
-      />
->>>>>>> 529427cbc7a3252cd4e2f072013dba5f6461f5e0
     </motion.div>
   );
 };
