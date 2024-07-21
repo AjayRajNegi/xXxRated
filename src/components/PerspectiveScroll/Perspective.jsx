@@ -58,14 +58,12 @@ const Section2 = ({ scrollYProgress }) => {
         src="/coat.webp"
         alt="img"
         placeholder="blur"
-        fill
         className="hidden h-full md:block"
       />
       <img
         src="/bcomp.jpg"
         alt="img"
         placeholder="blur"
-        fill
         className="block h-full md:hidden"
       />
     </motion.div>
