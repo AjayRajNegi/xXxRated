@@ -1,3 +1,4 @@
+import { HoverImageLinks } from "../../components/Footer/HoverImageLinks";
 import {
   LoadingAnimation,
   Mask,
@@ -14,7 +15,7 @@ const Home = () => {
       <Squishy />
       <HeroScrollDemo />
       <HorizontalCarousal />
-      <div className="h-screen"></div>
+      <HoverImageLinks />
     </div>
   );
 };

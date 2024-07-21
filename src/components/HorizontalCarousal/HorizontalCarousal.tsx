@@ -1,6 +1,5 @@
 import { motion, useTransform, useScroll } from "framer-motion";
 import { useRef } from "react";
-import BubbleText from "../BubbleText/BubbleText";
 
 const HorizontalCarousal = () => {
   return (
