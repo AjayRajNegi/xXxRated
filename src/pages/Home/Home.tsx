@@ -10,6 +10,7 @@ import {
   Footer,
   HoverImageLinks,
 } from "../../components/Index";
+import CardParallax from "../../components/CardPrallax/CardParallax";
 
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
       <HeroScrollDemo />
       <Perspective />
       <HorizontalCarousal />
+      <CardParallax />
       <HoverImageLinks />
       <Footer />
     </div>
