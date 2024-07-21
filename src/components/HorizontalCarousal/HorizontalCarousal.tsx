@@ -3,9 +3,9 @@ import { useRef } from "react";
 
 const HorizontalCarousal = () => {
   return (
-    <div className="">
-      <div className="relative top-32 z-20 flex h-0 items-center justify-center bg-white tracking-tighter">
-        <div className="text-3xl font-semibold text-black md:text-6xl">
+    <>
+      <div className="relative top-10 z-20 flex h-0 items-center justify-center bg-black tracking-tighter">
+        <div className="text-3xl font-semibold text-white md:text-6xl">
           RELIVE <span className="italic">the</span> BEST
           <span className="italic">everyday.</span>
         </div>
@@ -17,7 +17,7 @@ const HorizontalCarousal = () => {
           Scroll up
         </span>
       </div> */}
-    </div>
+    </>
   );
 };
 
@@ -30,7 +30,7 @@ const HorizontalScrollCarousel = () => {
   const x = useTransform(scrollYProgress, [0, 1], ["1%", "-95%"]);
 
   return (
-    <section ref={targetRef} className="relative h-[300vh] bg-white pl-[2vw]">
+    <section ref={targetRef} className="relative h-[300vh] bg-black pl-[2vw]">
       <div className="sticky top-0 flex h-screen items-center overflow-hidden">
         <motion.div style={{ x }} className="flex gap-4">
           {cards.map((card) => {

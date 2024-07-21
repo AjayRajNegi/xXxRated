@@ -6,6 +6,7 @@ import {
   HeroScrollDemo,
   HorizontalCarousal,
 } from "../../components/Index";
+import Perspective from "../../components/PerspectiveScroll/Perspective";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <Mask />
       <Squishy />
       <HeroScrollDemo />
+      <Perspective />
       <HorizontalCarousal />
       <HoverImageLinks />
     </div>

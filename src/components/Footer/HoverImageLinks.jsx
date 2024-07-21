@@ -10,38 +10,33 @@ export const HoverImageLinks = () => {
           heading="About"
           subheading="Learn what we do here"
           imgSrc="/coat.webp"
-          to="/about"
         />
         <Link
           heading="Clients"
           subheading="We work with great people"
           imgSrc="/coat.webp"
-          to="/about"
         />
         <Link
           heading="Portfolio"
           subheading="Our work speaks for itself"
           imgSrc="/coat.webp"
-          to="/about"
         />
         <Link
           heading="Careers"
           subheading="We want cool people"
           imgSrc="/coat.webp"
-          to="/about"
         />
         <Link
           heading="Fun"
           subheading="Incase you're bored"
           imgSrc="/coat.webp"
-          to="/about"
         />
       </div>
     </section>
   );
 };
 
-const Link = ({ heading, imgSrc, subheading, to }) => {
+const Link = ({ heading, imgSrc, subheading }) => {
   const ref = useRef(null);
 
   const x = useMotionValue(0);
@@ -71,7 +66,6 @@ const Link = ({ heading, imgSrc, subheading, to }) => {
 
   return (
     <motion.a
-      to={to}
       ref={ref}
       onMouseMove={handleMouseMove}
       initial="initial"
