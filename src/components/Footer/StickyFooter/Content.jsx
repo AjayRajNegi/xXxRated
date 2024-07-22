@@ -1,6 +1,6 @@
 export default function Content() {
   return (
-    <div className="flex h-full w-full flex-col justify-between bg-[#4E4E5A] px-12 py-8">
+    <div className="flex h-full w-full flex-col justify-between bg-[#ddd] px-12 py-8">
       <Section1 />
       <Section2 />
     </div>
@@ -30,16 +30,14 @@ const Nav = () => {
   return (
     <div className="flex shrink-0 gap-20">
       <div className="flex flex-col gap-2">
-        <h3 className="mb-2 text-2xl font-bold uppercase text-[#ffffff80]">
-          About
-        </h3>
+        <h3 className="mb-2 text-2xl font-bold uppercase text-black">About</h3>
         <p className="font-semibold">Home</p>
         <p className="font-semibold">Projects</p>
         <p className="font-semibold">Contact</p>
         <p className="font-semibold">About Us</p>
       </div>
       <div className="flex flex-col gap-2">
-        <h3 className="mb-2 text-2xl font-bold uppercase text-[#ffffff80]">
+        <h3 className="text-black] mb-2 text-2xl font-bold uppercase">
           Products
         </h3>
         <p className="font-semibold">Zipline</p>

@@ -1,7 +1,10 @@
+//Pages
 export { default as Home } from "../pages/Home/Home";
 export { default as About } from "../pages/About/About";
 export { default as Contact } from "../pages/Contact/Contact";
 export { default as Product } from "../pages/Products/Product";
+
+//Navigation
 export { default as Navbar } from "../components/Navbar/Navbar";
 export { default as Navigation } from "../components/Navbar/Navigation";
 
@@ -15,8 +18,12 @@ export { default as Perspective } from "./HomeComponents/PerspectiveScroll/Persp
 export { default as HorizontalCarousal } from "./HomeComponents/HorizontalCarousal/HorizontalCarousal";
 export { default as LoadingAnimation } from "../components/HomeComponents/LoadingAnimation/LoadingAnimation";
 
+//Contact Page
+export { default as ContactMain } from "./ContactComponents/ContactMain/ContactMain";
+export { default as ClipPathLinks } from "./ContactComponents/PathLink/ClipPathLinks";
+
 //About Page
 export { default as TextParallaxContentExample } from "./AboutComponents/TextParallaxContent/TextParallaxExample";
 
-//Contact Page
+//Footer
 export { default as Footer } from "./Footer/StickyFooter/Footer2";
