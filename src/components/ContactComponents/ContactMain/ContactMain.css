@@ -1,0 +1,28 @@
+.contact {
+  padding: 40px 0 0 0;
+  background-color: #ddd;
+}
+.main-contact {
+  background-color: #ddd;
+}
+.main-contact-content {
+  padding-top: 100px;
+}
+.mask-header {
+  padding: 0 4vw 0 4vw;
+}
+.contact-headquater {
+  padding: 100px 4vw 80px 4vw;
+  background-color: black;
+  color: white;
+}
+.contact-headquater img {
+  height: 500px;
+  width: 400px;
+  margin: auto;
+}
+
+.mask-hr {
+  border: 1px solid #8e8888;
+  margin: 0 4vw 0 4vw;
+}

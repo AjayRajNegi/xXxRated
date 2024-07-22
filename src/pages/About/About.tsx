@@ -1,5 +1,9 @@
-import { TextParallaxContentExample } from "../../components/AbourComponents/TextPrallaxContent/TestParallaxExample";
-import { Footer, Navbar, Navigation } from "../../components/Index";
+import {
+  Footer,
+  Navbar,
+  Navigation,
+  TextParallaxContentExample,
+} from "../../components/Index";
 
 const About = () => {
   return (
