@@ -1,11 +1,17 @@
-import { Navbar, Navigation } from "../../components/Index";
+import { TextParallaxContentExample } from "../../components/AbourComponents/TextPrallaxContent/TestParallaxExample";
+import { Footer, Navbar, Navigation } from "../../components/Index";
 
 const About = () => {
   return (
     <>
       <Navbar />
-      <Navigation />
-      <div className="h-screen bg-white">About</div>
+      <div className="bg-[#fbd747]">
+        <Navigation />
+      </div>
+      <div className="bg-white pt-5">
+        <TextParallaxContentExample />
+        <Footer />
+      </div>
     </>
   );
 };

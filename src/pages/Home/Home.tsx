@@ -1,5 +1,3 @@
-import { useEffect } from "react";
-import Lenis from "lenis";
 import {
   LoadingAnimation,
   Mask,
@@ -9,8 +7,8 @@ import {
   Perspective,
   Footer,
   HoverImageLinks,
+  CardParallax,
 } from "../../components/Index";
-import CardParallax from "../../components/CardPrallax/CardParallax";
 
 const Home = () => {
   return (

@@ -7,8 +7,8 @@ import {
   clipPath3,
   clipPath4,
   marquee,
-} from "../../utils/motion";
-import { Navbar, Navigation } from "../Index";
+} from "../../../utils/motion";
+import { Navbar, Navigation } from "../../Index";
 const LoadingAnimation = () => {
   const [isLoading, setIsLoading] = useState<boolean>(true);
 

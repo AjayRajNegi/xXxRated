@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { rectangleH, rectangleW } from "../../../utils/motion";
+import { rectangleH, rectangleW } from "../../../../utils/motion";
 
 const Loader = ({ setLoading }: { setLoading: (s: boolean) => void }) => {
   const waitLoading = () => {
