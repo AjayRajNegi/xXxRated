@@ -1,6 +1,3 @@
-import { useState } from "react";
-import { motion } from "framer-motion";
-import Loader from "./Loader/Loader";
 import {
   clipPath1,
   clipPath2,
@@ -8,6 +5,9 @@ import {
   clipPath4,
   marquee,
 } from "../../../utils/motion";
+import { useState } from "react";
+import Loader from "./Loader/Loader";
+import { motion } from "framer-motion";
 import { Navbar, Navigation } from "../../Index";
 const LoadingAnimation = () => {
   const [isLoading, setIsLoading] = useState<boolean>(true);

@@ -1,4 +1,3 @@
-import React, { MouseEvent } from "react";
 import {
   SiAdobe,
   SiApple,
@@ -10,8 +9,9 @@ import {
   SiSpotify,
   SiTiktok,
 } from "react-icons/si";
-import { useAnimate } from "framer-motion";
+import { MouseEvent } from "react";
 import { IconType } from "react-icons";
+import { useAnimate } from "framer-motion";
 
 const Example = () => {
   return (

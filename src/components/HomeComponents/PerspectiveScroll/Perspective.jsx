@@ -1,7 +1,7 @@
-import { useScroll, useTransform, motion } from "framer-motion";
-import { useEffect, useRef } from "react";
-import vd1 from "/Sequence01comp.mp4";
 import Lenis from "lenis";
+import vd1 from "/Sequence01comp.mp4";
+import { useEffect, useRef } from "react";
+import { useScroll, useTransform, motion } from "framer-motion";
 
 export default function Perspective() {
   const container = useRef();

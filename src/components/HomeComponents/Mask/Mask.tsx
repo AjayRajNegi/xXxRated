@@ -1,5 +1,5 @@
-import www from "/icons8-web.gif";
 import "./Mask.css";
+import www from "/icons8-web.gif";
 
 const Mask = () => {
   return (

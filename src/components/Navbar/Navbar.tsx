@@ -1,6 +1,6 @@
-import FlyoutLinkBtn from "./FlyoutLinks/FlyoutLinkBtn";
 import { Link } from "react-router-dom";
 import NeuButton from "./NeuButton/NeuButton";
+import FlyoutLinkBtn from "./FlyoutLinks/FlyoutLinkBtn";
 
 const Navbar = () => {
   return (

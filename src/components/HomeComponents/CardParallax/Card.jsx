@@ -1,5 +1,5 @@
-import styles from "./Card.module.css";
 import cI from "/P.jpg";
+import styles from "./Card.module.css";
 
 const Card = ({ title, description, src, url, color, i }) => {
   return (

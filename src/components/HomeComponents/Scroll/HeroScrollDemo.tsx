@@ -1,5 +1,5 @@
-import { ContainerScroll } from "./ContainerScroll";
 import i from "/coat.webp";
+import { ContainerScroll } from "./ContainerScroll";
 
 export default function HeroScrollDemo() {
   return (

@@ -1,7 +1,7 @@
 import ButtonWrapper from "./ButtonWrapper";
-import BlackSquishy from "./SquishyCards/BlackSquishy";
-import BlueSquishy from "./SquishyCards/BlueSquishy";
 import RedSquishy from "./SquishyCards/RedSquishy";
+import BlueSquishy from "./SquishyCards/BlueSquishy";
+import BlackSquishy from "./SquishyCards/BlackSquishy";
 
 const Squishy = () => {
   return (

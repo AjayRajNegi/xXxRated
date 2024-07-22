@@ -1,6 +1,6 @@
-import styles from "./Card.module.css";
-import { projects } from "./Data";
 import Card from "./Card";
+import { projects } from "./Data";
+import styles from "./Card.module.css";
 
 export default function CardParallax() {
   return (
