@@ -1,6 +1,7 @@
 import Lenis from "lenis";
 import { useEffect } from "react";
-import { Navbar, Navigation, Index } from "../../components/Index";
+import { Navbar, Navigation, Index, Footer } from "../../components/Index";
+import ProductMain from "../../components/ProductComponents/ProductMain/ProductMain";
 
 const Product = () => {
   useEffect(() => {
@@ -13,15 +14,17 @@ const Product = () => {
     requestAnimationFrame(raf);
   }, []);
   return (
-    <div className="">
+    <>
       <div className="">
         <Navbar />
         <Navigation />
       </div>
-      <div className="mb-[100vh] mt-[25vh]">
+      <div className="mt-[25vh]">
         <Index />
       </div>
-    </div>
+      <ProductMain />
+      <Footer />
+    </>
   );
 };
 

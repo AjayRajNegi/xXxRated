@@ -1,10 +1,10 @@
-import Picture1 from "/P.jpg";
-import Picture2 from "/P.jpg";
-import Picture3 from "/P.jpg";
-import Picture4 from "/P.jpg";
-import Picture5 from "/P.jpg";
-import Picture6 from "/P.jpg";
-import Picture7 from "/P.jpg";
+import Picture1 from "../../../assets/images/P.jpg";
+import Picture2 from "../../../assets/images/bcomp.jpg";
+import Picture3 from "../../../assets/images/zB.png";
+import Picture4 from "../../../assets/images/gB.png";
+import Picture5 from "../../../assets/images/nD.png";
+import Picture6 from "../../../assets/images/gR.png";
+import Picture7 from "../../../assets/images/nC.png";
 import { useRef } from "react";
 import styles from "./ZoomParallax.module.scss";
 import { useScroll, useTransform, motion } from "framer-motion";
