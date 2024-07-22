@@ -21,6 +21,7 @@ export { default as LoadingAnimation } from "../components/HomeComponents/Loadin
 //Contact Page
 export { default as ContactMain } from "./ContactComponents/ContactMain/ContactMain";
 export { default as ClipPathLinks } from "./ContactComponents/PathLink/ClipPathLinks";
+export { default as FuzzyOverlayExample } from "./ContactComponents/FuzzyOverlay/FuzzyOverlay";
 
 //About Page
 export { default as TextParallaxContentExample } from "./AboutComponents/TextParallaxContent/TextParallaxExample";

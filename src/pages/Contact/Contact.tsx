@@ -1,10 +1,10 @@
-import FuzzyOverlayExample from "../../components/ContactComponents/FuzzyOverlay/FuzzyOverlay";
 import {
   Footer,
   Navbar,
   Navigation,
   ContactMain,
   ClipPathLinks,
+  FuzzyOverlayExample,
 } from "../../components/Index";
 const Contact = () => {
   return (
