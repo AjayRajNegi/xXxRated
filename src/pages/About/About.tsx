@@ -8,7 +8,7 @@ const About = () => {
       <div className="bg-[#fbd747]">
         <Navigation />
       </div>
-      <div className="bg-white pt-5">
+      <div className="bg-white pt-5 md:pt-0">
         <TextParallaxContentExample />
         <Footer />
       </div>
