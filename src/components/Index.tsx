@@ -18,6 +18,9 @@ export { default as Perspective } from "./HomeComponents/PerspectiveScroll/Persp
 export { default as HorizontalCarousal } from "./HomeComponents/HorizontalCarousal/HorizontalCarousal";
 export { default as LoadingAnimation } from "../components/HomeComponents/LoadingAnimation/LoadingAnimation";
 
+//Products Page
+export { default as Index } from "./ProductComponents/ZoomParallax/ZoomParallax";
+
 //Contact Page
 export { default as ContactMain } from "./ContactComponents/ContactMain/ContactMain";
 export { default as ClipPathLinks } from "./ContactComponents/PathLink/ClipPathLinks";

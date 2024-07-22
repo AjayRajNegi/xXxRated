@@ -56,7 +56,7 @@ const Navigation = () => {
       <nav className="flex items-center justify-between px-3 py-3">
         <div className="">
           <h1 className="text-xl font-semibold text-white md:text-2xl">
-            XXXRATED
+            XXX RATED
           </h1>
           {/* <img
             src="./blacklogo .png"
@@ -79,7 +79,7 @@ const Navigation = () => {
           >
             <div className="flex h-full flex-col">
               <div className="flex justify-between">
-                <h1 className="text-lg text-black">XXXRated</h1>
+                <h1 className="text-lg text-black">XXX Rated</h1>
                 <p
                   className="text-md cursor-pointer text-black"
                   onClick={toggleMenu}

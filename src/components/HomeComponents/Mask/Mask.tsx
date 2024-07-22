@@ -14,14 +14,14 @@ const Mask = () => {
           </div>
           <div className="mask-header-second hidden text-right leading-4 md:flex">
             <p>
-              ©2024 XXXRATED <br />
+              ©2024 XXX RATED <br />
               ALL RIGHTS RESERVED
             </p>
           </div>
         </div>
         <div className="mask-content">
           <p className="text-center text-xl leading-5 md:text-4xl md:leading-8">
-            XXXRATED <span className="italic">is a</span> MANUFACTURER{" "}
+            XXX RATED <span className="italic">is a</span> MANUFACTURER{" "}
             <span className="italic">of</span> SENSUAL,{" "}
             <span className="italic">exquisite and </span>
             LOREM PERFUMES <span className="italic">and</span> BODY SPRAYS.

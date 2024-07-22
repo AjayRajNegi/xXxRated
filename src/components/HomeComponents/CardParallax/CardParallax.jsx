@@ -6,7 +6,7 @@ export default function CardParallax() {
   return (
     <>
       <p className="bg-black pb-[4vw] pl-[4vw] pt-[4vw] text-4xl uppercase tracking-[-2px] text-white md:text-4xl md:tracking-[-5px] lg:text-7xl">
-        why choose <br /> xxxrated
+        why choose <br /> xxx rated
       </p>
       <main className={styles.main}>
         {projects.map((project, i) => {

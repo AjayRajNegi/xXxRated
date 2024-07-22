@@ -1,15 +1,25 @@
-import { Navbar, Navigation } from "../../components/Index";
+import Lenis from "lenis";
+import { useEffect } from "react";
+import { Navbar, Navigation, Index } from "../../components/Index";
 
 const Product = () => {
+  useEffect(() => {
+    const lenis = new Lenis();
+    function raf(time: any) {
+      lenis.raf(time);
+      requestAnimationFrame(raf);
+    }
+
+    requestAnimationFrame(raf);
+  }, []);
   return (
-    <div className="bg-red-600">
+    <div className="">
       <div className="">
         <Navbar />
         <Navigation />
       </div>
-      <div className="product bg-red-200 pt-2 md:pt-16">
-        Product
-        <h1>asdf</h1>
+      <div className="mb-[100vh] mt-[25vh]">
+        <Index />
       </div>
     </div>
   );
