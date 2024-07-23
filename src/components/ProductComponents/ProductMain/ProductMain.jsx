@@ -37,66 +37,66 @@ const ProductMain = () => {
           <div className="products-product products-product-header flex items-center justify-center">
             <p className="products-heading text-3xl">ZIP LINE</p>
           </div>
-          <div className="products-product">
+          <Link to="" className="products-product">
             <p>ZIP-WHITE</p>
             <img src={zW} alt="" />
-          </div>
-          <div className="products-product">
+          </Link>
+          <Link to="" className="products-product">
             <p>ZIP-BLUE</p>
             <img src={zB} alt="" />
-          </div>
-          <div className="products-product">
+          </Link>
+          <Link to="" className="products-product">
             <p>ZIP-BLACK</p>
             <img src={zBl} alt="" />
-          </div>
+          </Link>
         </div>
         {/* No Gas Container */}
         <div className="products-main no-gas grid grid-cols-1 gap-7 md:grid-cols-3 2xl:grid-cols-4">
           <div className="products-product products-product-header flex items-center justify-center">
             <p className="products-heading text-3xl">NO-GAS</p>
           </div>
-          <div className="products-product">
+          <Link to="" className="products-product">
             <p>CLIMAX NO-GAS</p>
             <img src={nC} alt="" />
-          </div>
-          <div className="products-product">
+          </Link>
+          <Link to="" className="products-product">
             <p>BOLD NO-GAS</p>
             <img src={nB} alt="" />
-          </div>
-          <div className="products-product">
+          </Link>
+          <Link to="" className="products-product">
             <p>DIRTY NO-GAS</p>
             <img src={nD} alt="" />
-          </div>
-          <div className="products-product">
+          </Link>
+          <Link to="" className="products-product">
             <p>HARD NO-GAS</p>
             <img src={nH} alt="" />
-          </div>
+          </Link>
         </div>
         {/* Gas Container */}
         <div className="products-main gas grid grid-cols-1 gap-7 md:grid-cols-3 2xl:grid-cols-4">
           <div className="products-product products-product-header flex items-center justify-center">
             <p className="products-heading text-3xl">GAS</p>
           </div>
-          <div className="products-product">
+          <Link to="" className="products-product">
             <p>INTIMIDATE R</p>
             <img src={gO} alt="" />
-          </div>
+          </Link>
           <Link to="/pleasureG" className="products-product">
             <p>PLEASURE B</p>
             <img src={gB} alt="" />
           </Link>
-          <div className="products-product">
+          <Link to="" className="products-product">
             <p>NAUGHTY P</p>
             <img src={gP} alt="" />
-          </div>
-          <div className="products-product">
+          </Link>
+          <Link to="" className="products-product">
             <p>FOREPLAY G</p>
             <img src={gG} alt="" />
-          </div>
-          <div className="products-product">
+          </Link>
+          <Link to="" className="products-product">
             <p>SENSUAL R</p>
             <img src={gR} alt="" />
-          </div>
+          </Link>
         </div>
         {/* 
         <hr className="products-hr" /> */}
