@@ -2,6 +2,7 @@ import Lenis from "lenis";
 import { useEffect } from "react";
 import { Route, Routes } from "react-router";
 import { Home, Product, Contact, About } from "./components/Index";
+import PleasureG from "./components/ProductPages/Categories/Gas/PleasureG";
 
 const App = () => {
   useEffect(() => {
@@ -19,6 +20,7 @@ const App = () => {
         <Route path="/product" element={<Product />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
         <Route path="/about" element={<About />}></Route>
+        <Route path="/pleasureG" element={<PleasureG />}></Route>
       </Routes>
     </>
   );

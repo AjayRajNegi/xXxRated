@@ -1,7 +1,12 @@
 import Lenis from "lenis";
 import { useEffect } from "react";
-import { Navbar, Navigation, Index, Footer } from "../../components/Index";
-import ProductMain from "../../components/ProductComponents/ProductMain/ProductMain";
+import {
+  Navbar,
+  Navigation,
+  Index,
+  Footer,
+  ProductMain,
+} from "../../components/Index";
 
 const Product = () => {
   useEffect(() => {
@@ -15,10 +20,8 @@ const Product = () => {
   }, []);
   return (
     <>
-      <div className="">
-        <Navbar />
-        <Navigation />
-      </div>
+      <Navbar />
+      <Navigation />
       <div className="mt-[25vh]">
         <Index />
       </div>

@@ -13,6 +13,7 @@ import gO from "../../../assets/images/gO.png";
 import gP from "../../../assets/images/gP.png";
 import gR from "../../../assets/images/gR.png";
 import "./ProductMain.css";
+import { Link } from "react-router-dom";
 
 const ProductMain = () => {
   return (
@@ -80,10 +81,10 @@ const ProductMain = () => {
             <p>INTIMIDATE R</p>
             <img src={gO} alt="" />
           </div>
-          <div className="products-product">
+          <Link to="/pleasureG" className="products-product">
             <p>PLEASURE B</p>
             <img src={gB} alt="" />
-          </div>
+          </Link>
           <div className="products-product">
             <p>NAUGHTY P</p>
             <img src={gP} alt="" />

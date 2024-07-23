@@ -20,6 +20,11 @@ export { default as LoadingAnimation } from "../components/HomeComponents/Loadin
 
 //Products Page
 export { default as Index } from "./ProductComponents/ZoomParallax/ZoomParallax";
+export { default as ProductMain } from "./ProductComponents/ProductMain/ProductMain";
+
+//Product Pages
+export { default as DragCards } from "./ProductPages/DragCards/DragCards";
+export { default as TextGenerateEffectDemo } from "./ProductPages/TextGenerate/TextGenerateExample";
 
 //Contact Page
 export { default as ContactMain } from "./ContactComponents/ContactMain/ContactMain";
