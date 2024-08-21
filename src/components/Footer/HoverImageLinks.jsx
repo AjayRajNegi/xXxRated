@@ -1,16 +1,13 @@
 import { useMotionValue, motion, useSpring, useTransform } from "framer-motion";
 import React, { useRef } from "react";
 import { FiArrowRight } from "react-icons/fi";
+import i from "../../assets/images/OUD/About1.jpg";
 
 const HoverImageLinks = () => {
   return (
     <section className="bg-neutral-950 p-4 md:p-8">
       <div className="mx-auto max-w-5xl">
-        <Link
-          heading="Diverse"
-          subheading="Range of Scents."
-          imgSrc="/coat.webp"
-        />
+        <Link heading="Diverse" subheading="Range of Scents." imgSrc={i} />
         <Link
           heading="Luxury"
           subheading="At very affordable Price."
@@ -24,7 +21,7 @@ const HoverImageLinks = () => {
         <Link
           heading="Proudly"
           subheading="MADE IN INDIA"
-          imgSrc="/coat.webp"
+          imgSrc="/india.jpg"
         />
       </div>
     </section>
