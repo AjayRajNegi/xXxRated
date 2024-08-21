@@ -21,27 +21,28 @@ const ContactMain = () => {
           <div className="main-contact-content">
             <span className="text-sm md:text-base">FOR GENERAL ENQUIRY</span>
             <br />
-            <p className="text-3xl md:text-7xl">INFO@VIBOR.IT</p>
+            <p className="text-3xl md:text-7xl">xxxtrends@gmail.com</p>
           </div>
           <div className="main-contact-content">
             <span className="text-sm md:text-base">
               FOR WHOLESALE AND ORDERS
             </span>
             <br />
-            <p className="text-3xl md:text-7xl">SALES@VIBOR.IT</p>
+            <p className="text-3xl md:text-7xl">8505972324</p>
           </div>
           <div className="main-contact-content pb-9">
             <span className="text-sm md:text-base">PHONE</span>
             <br />
-            <p className="text-3xl md:text-7xl">(+39) 02 66.204.556</p>
+            <p className="text-3xl md:text-7xl">8860437438</p>
           </div>
         </div>
         <div className="contact-headquater grid grid-cols-1 md:grid-cols-2">
-          <img src="P.jpg" alt="" />
+          <img src="Contact.jpg" alt="" />
           <div className="contact-headquater-details flex flex-col justify-between gap-3">
             <p className="pt-5 text-xl">HEADQUATER</p>
-            <p className="text-5xl md:text-7xl">
-              VIA DON B.GRAZIOLI 57 20161 MILANO (ITALY)
+            <p className="text-2xl md:text-5xl">
+              SHOP NO 142 F-6, F-7, F-8 FIRST FLOOR NEW QUTUB ROAD MITHAI SADAR
+              BAZAR DELHI 110006
             </p>
           </div>
         </div>

@@ -7,28 +7,23 @@ const HoverImageLinks = () => {
     <section className="bg-neutral-950 p-4 md:p-8">
       <div className="mx-auto max-w-5xl">
         <Link
-          heading="About"
-          subheading="Learn what we do here"
+          heading="Diverse"
+          subheading="Range of Scents."
           imgSrc="/coat.webp"
         />
         <Link
-          heading="Clients"
-          subheading="We work with great people"
-          imgSrc="/coat.webp"
+          heading="Luxury"
+          subheading="At very affordable Price."
+          imgSrc="/PocketHover.jpg"
         />
         <Link
-          heading="Portfolio"
-          subheading="Our work speaks for itself"
-          imgSrc="/coat.webp"
+          heading="Service"
+          subheading="Towards customer is Exceptional."
+          imgSrc="/BoldZoom.jpg"
         />
         <Link
-          heading="Careers"
-          subheading="We want cool people"
-          imgSrc="/coat.webp"
-        />
-        <Link
-          heading="Fun"
-          subheading="Incase you're bored"
+          heading="Proudly"
+          subheading="MADE IN INDIA"
           imgSrc="/coat.webp"
         />
       </div>

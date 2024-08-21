@@ -52,11 +52,11 @@ const Card = ({ card }: { card: CardType }) => {
         }}
         className="absolute inset-0 z-0 transition-transform duration-300 group-hover:scale-110"
       ></div>
-      <div className="absolute inset-0 z-10 grid place-content-center">
-        <p className="bg-gradient-to-br from-white/20 to-white/0 p-8 text-6xl font-black uppercase text-white backdrop-blur-lg">
+      {/* <div className="absolute inset-0 z-10 grid place-content-center">
+        <p className="bg-gradient-to-br from-white/20 to-white/0 p-8 text-6xl font-black uppercase text-white backdrop-blur-sm">
           {card.title}
         </p>
-      </div>
+      </div> */}
     </div>
   );
 };
@@ -64,37 +64,39 @@ const Card = ({ card }: { card: CardType }) => {
 export default HorizontalCarousal;
 
 type CardType = {
-  url: string;
+  url: any;
   title: string;
   id: number;
 };
 
 const cards: CardType[] = [
   {
-    url: "/P.jpg",
+    url: "/OUD/Bkoud.jpg",
     title: "Title 1",
     id: 1,
   },
   {
-    url: "/P.jpg",
+    url: "/OUD/Woud.jpg",
+    title: "Title 5",
+    id: 5,
+  },
+  {
+    url: "/OUD/Roud.jpg",
     title: "Title 2",
     id: 2,
   },
+
   {
-    url: "/P.jpg",
+    url: "/OUD/Goud.jpg",
     title: "Title 3",
     id: 3,
   },
   {
-    url: "/P.jpg",
+    url: "/OUD/Boud.jpg",
     title: "Title 4",
     id: 4,
   },
-  {
-    url: "/P.jpg",
-    title: "Title 5",
-    id: 5,
-  },
+
   // {
   //   url: "/gR.png",
   //   title: "Title 6",

@@ -5,8 +5,7 @@ import { HamburgerButton } from "./HamburgerButton/HamburgerButton";
 
 const navLinks = [
   { title: "Home", to: "/" },
-  { title: "Men", to: "/product" },
-  { title: "Women", to: "/product" },
+  { title: "Products", to: "/product" },
   { title: "About", to: "/about" },
   { title: "Contact", to: "/contact" },
 ];
@@ -75,13 +74,13 @@ const Navigation = () => {
             initial="initial"
             animate="animate"
             exit="exit"
-            className="fixed left-0 top-0 h-screen w-full origin-top bg-yellow-400 p-10 pt-5 text-black"
+            className="fixed left-0 top-0 h-screen w-full origin-top bg-zinc-500 p-10 pt-5 text-black"
           >
             <div className="flex h-full flex-col">
               <div className="flex justify-between">
-                <h1 className="text-lg text-black">XXX Rated</h1>
+                <h1 className="text-3xl text-white">XXX Rated</h1>
                 <p
-                  className="text-md cursor-pointer text-black"
+                  className="text-md cursor-pointer text-white"
                   onClick={toggleMenu}
                 ></p>
               </div>
@@ -133,7 +132,7 @@ const MobileNavLink = ({ title, to }) => {
   return (
     <motion.div
       variants={mobileLinkVars}
-      className="text-5xl uppercase text-black"
+      className="text-5xl uppercase text-white"
     >
       <Link to={to} key={title}>
         {title}

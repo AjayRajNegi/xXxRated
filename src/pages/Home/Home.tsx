@@ -7,7 +7,7 @@ import {
   Perspective,
   Footer,
   HoverImageLinks,
-  CardParallax,
+  ChooseSection,
 } from "../../components/Index";
 
 const Home = () => {
@@ -19,7 +19,7 @@ const Home = () => {
       <HeroScrollDemo />
       <Perspective />
       <HorizontalCarousal />
-      <CardParallax />
+      <ChooseSection />
       <HoverImageLinks />
       <Footer />
     </div>

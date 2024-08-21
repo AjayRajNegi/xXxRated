@@ -3,11 +3,11 @@ import {
   SiApple,
   SiFacebook,
   SiGoogle,
-  SiLinkedin,
-  SiShopify,
+  SiInstagram,
+  SiYoutube,
   SiSoundcloud,
-  SiSpotify,
-  SiTiktok,
+  SiAmazon,
+  SiFlipkart,
 } from "react-icons/si";
 import { MouseEvent } from "react";
 import { IconType } from "react-icons";
@@ -27,19 +27,31 @@ const ClipPathLinks = () => {
   return (
     <div className="divide-y divide-neutral-900 border border-neutral-900">
       <div className="grid grid-cols-2 divide-x divide-neutral-900">
-        <LinkBox Icon={SiGoogle} href="#" />
-        <LinkBox Icon={SiShopify} href="#" />
+        <LinkBox
+          Icon={SiGoogle}
+          href="https://www.google.com/search?sca_esv=0c15b61a97dbbf20&sca_upv=1&authuser=3&sxsrf=ADLYWIInsMtoOL2AHAAgQDhiA6uS4WDN2Q:1721769748490&q=XXX+Rated+Deo&ludocid=8951723678463217997&lsig=AB86z5VD-_eS2DrP7nIPZL2UsGaD&kgs=455abb71f278f500&shndl=-1&shem=labmtre,lsde,lsp,vslcca&source=sh/x/loc/act/m1/2"
+        />
+        <LinkBox
+          Icon={SiInstagram}
+          href="https://www.instagram.com/x.x.x_rated_deo"
+        />
       </div>
-      <div className="grid grid-cols-4 divide-x divide-neutral-900">
+      {/* <div className="grid grid-cols-4 divide-x divide-neutral-900">
         <LinkBox Icon={SiApple} href="#" />
         <LinkBox Icon={SiSoundcloud} href="#" />
         <LinkBox Icon={SiAdobe} href="#" />
         <LinkBox Icon={SiFacebook} href="#" />
-      </div>
+      </div> */}
       <div className="grid grid-cols-3 divide-x divide-neutral-900">
-        <LinkBox Icon={SiTiktok} href="#" />
-        <LinkBox Icon={SiSpotify} href="#" />
-        <LinkBox Icon={SiLinkedin} href="#" />
+        <LinkBox
+          Icon={SiFlipkart}
+          href="https://www.flipkart.com/search?q=xxx+rated+deo&as=on&as-show=on&pageUID=1568770799099"
+        />
+        <LinkBox Icon={SiAmazon} href="#" />
+        <LinkBox
+          Icon={SiYoutube}
+          href="https://www.youtube.com/@xxxtrends7189?app=desktop"
+        />
       </div>
     </div>
   );

@@ -34,8 +34,8 @@ const LoadingAnimation = () => {
               </motion.h1>
             </div>
             <motion.img
-              src="/coat.webp"
-              alt="coat image"
+              src="/Main.jpg"
+              alt="NewBgComp"
               className="absolute inset-0 h-screen w-full object-cover filter"
               initial={{ scale: 1.1 }}
               animate={{ scale: 1 }}
@@ -46,6 +46,19 @@ const LoadingAnimation = () => {
                 delay: 0.2,
               }}
             />
+            {/* <motion.img
+              src="/Main.jpg"
+              alt="NewBgComp"
+              className="absolute inset-0 block h-screen w-full bg-black object-cover filter md:hidden"
+              initial={{ scale: 1.1 }}
+              animate={{ scale: 1 }}
+              transition={{
+                type: "tween",
+                ease: "easeInOut",
+                duration: 0.6,
+                delay: 0.2,
+              }}
+            /> */}
           </div>
         )}
       </div>

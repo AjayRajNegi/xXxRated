@@ -21,10 +21,9 @@ const Mask = () => {
         </div>
         <div className="mask-content">
           <p className="text-center text-xl leading-5 md:text-4xl md:leading-8">
-            XXX RATED <span className="italic">is a</span> MANUFACTURER{" "}
-            <span className="italic">of</span> SENSUAL,{" "}
-            <span className="italic">exquisite and </span>
-            LOREM PERFUMES <span className="italic">and</span> BODY SPRAYS.
+            <span className="text-2xl md:text-5xl">XXX RATED.</span> <br />
+            <span>SENSUALITY</span> <span className="italic">has a new</span>{" "}
+            ADDRESS.
           </p>
         </div>
 

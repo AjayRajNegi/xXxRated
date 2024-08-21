@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const BlackSquishy = () => {
   return (
@@ -29,7 +30,11 @@ const Card = () => {
         {/* <span className="mb-3 block w-fit rounded-full bg-white/30 px-3 py-0.5 text-sm font-light text-white">
           Pro
         </span> */}
-        <img src="/zBl.png" alt="" className="absolute -top-5 z-10" />
+        <img
+          src="/zBl.png"
+          alt=""
+          className="absolute left-7 top-5 z-10 h-[280px]"
+        />
         <motion.span
           initial={{ scale: 0.85 }}
           variants={{
@@ -41,17 +46,20 @@ const Card = () => {
             duration: 1,
             ease: "backInOut",
           }}
-          className="relative z-10 my-2 block origin-top-left pt-16 font-mono text-6xl font-black leading-[1.2]"
+          className="relative top-[3.5rem] z-10 my-2 block origin-top-left pt-16 font-mono text-5xl font-black leading-[1.2]"
         >
-          $299
+          ₹399
         </motion.span>
-        <p className="relative z-10">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, rem.
+        <p className="relative top-[2.7rem] z-10">
+          ZIPLINE: Simply "DEEWANA BANA DE".
         </p>
       </div>
-      <button className="absolute bottom-4 left-4 right-4 z-20 rounded border-2 border-white bg-white py-2 text-center font-mono font-black uppercase text-neutral-800 backdrop-blur transition-colors hover:bg-white/30 hover:text-white">
+      <Link
+        to="/product"
+        className="absolute bottom-4 left-4 right-4 z-20 rounded border-2 border-white bg-white py-2 text-center font-mono font-black uppercase text-neutral-800 backdrop-blur transition-colors hover:bg-white/30 hover:text-white"
+      >
         Get it now
-      </button>
+      </Link>
       <Background />
     </motion.div>
   );

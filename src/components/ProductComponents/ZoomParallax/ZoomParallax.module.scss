@@ -20,7 +20,7 @@
         width: 25vw;
         height: 25vh;
         img {
-          object-fit: cover;
+          object-fit: contain;
         }
       }
       &:nth-of-type(2) {

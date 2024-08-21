@@ -6,6 +6,7 @@ import {
   Index,
   Footer,
   ProductMain,
+  RevealLinks,
 } from "../../components/Index";
 
 const Product = () => {
@@ -22,9 +23,10 @@ const Product = () => {
     <>
       <Navbar />
       <Navigation />
-      <div className="mt-[25vh]">
+      <div className="mt-[25vh] lg:mt-0">
         <Index />
       </div>
+      <RevealLinks />
       <ProductMain />
       <Footer />
     </>

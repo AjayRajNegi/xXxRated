@@ -1,10 +1,10 @@
-import Picture1 from "../../../assets/images/P.jpg";
+import Picture1 from "../../../assets/images/Image1Cut.jpg";
 import Picture2 from "../../../assets/images/bcomp.jpg";
-import Picture3 from "../../../assets/images/zB.png";
-import Picture4 from "../../../assets/images/gB.png";
-import Picture5 from "../../../assets/images/nD.png";
-import Picture6 from "../../../assets/images/gR.png";
-import Picture7 from "../../../assets/images/nC.png";
+import Picture3 from "../../../assets/images/Image3.jpg";
+import Picture4 from "../../../assets/images/OUD/Roud.jpg";
+import Picture5 from "../../../assets/images/Image2.jpg";
+import Picture6 from "../../../assets/images/OUD/Boud.jpg";
+import Picture7 from "../../../assets/images/OUD/Woud.jpg";
 import { useRef } from "react";
 import styles from "./ZoomParallax.module.scss";
 import { useScroll, useTransform, motion } from "framer-motion";
@@ -54,17 +54,19 @@ export default function Index() {
   ];
 
   return (
-    <div ref={container} className={styles.container}>
-      <div className={styles.sticky}>
-        {pictures.map(({ src, scale }, index) => {
-          return (
-            <motion.div key={index} style={{ scale }} className={styles.el}>
-              <div className={styles.imageContainer}>
-                <img src={src} fill alt="image" placeholder="blur" />
-              </div>
-            </motion.div>
-          );
-        })}
+    <div className="block lg:hidden">
+      <div ref={container} className={styles.container}>
+        <div className={styles.sticky}>
+          {pictures.map(({ src, scale }, index) => {
+            return (
+              <motion.div key={index} style={{ scale }} className={styles.el}>
+                <div className={styles.imageContainer}>
+                  <img src={src} alt="image" placeholder="blur" />
+                </div>
+              </motion.div>
+            );
+          })}
+        </div>
       </div>
     </div>
   );

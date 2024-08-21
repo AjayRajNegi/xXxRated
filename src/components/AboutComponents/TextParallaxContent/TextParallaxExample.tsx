@@ -1,29 +1,20 @@
-import React, { ReactNode, useRef } from "react";
+import { ReactNode, useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
+import a1 from "../../../assets/images/OUD/About1.jpg";
+import a2 from "../../../assets/images/OUD/About2.jpg";
+import a3 from "../../../assets/images/OUD/About3.jpg";
 
 const TextParallaxContentExample = () => {
   return (
     <div className="bg-white">
-      <TextParallaxContent
-        imgUrl="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=2671&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-        subheading="Collaborate"
-        heading="Built for all of us."
-      >
-        <ExampleContent />
+      <TextParallaxContent imgUrl={a1} subheading="" heading="MISSION">
+        <MissionContent />
       </TextParallaxContent>
-      <TextParallaxContent
-        imgUrl="https://images.unsplash.com/photo-1530893609608-32a9af3aa95c?q=80&w=2564&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-        subheading="Quality"
-        heading="Never compromise."
-      >
-        <ExampleContent />
+      <TextParallaxContent imgUrl={a2} subheading="" heading="VISION">
+        <VisionContent />
       </TextParallaxContent>
-      <TextParallaxContent
-        imgUrl="https://images.unsplash.com/photo-1504610926078-a1611febcad3?q=80&w=2416&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-        subheading="Modern"
-        heading="Dress for the best."
-      >
-        <ExampleContent />
+      <TextParallaxContent imgUrl={a3} subheading="" heading="ABOUT US">
+        <ABoutContent />
       </TextParallaxContent>
     </div>
   );
@@ -124,21 +115,78 @@ const OverlayCopy = ({
   );
 };
 
-const ExampleContent = () => (
+const MissionContent = () => (
   <div className="mx-auto grid max-w-5xl grid-cols-1 gap-8 px-4 pb-24 pt-12 md:grid-cols-12">
     <h2 className="col-span-1 text-3xl font-bold md:col-span-4">
-      Additional content explaining the above card here
+      Our Mission in which we firmly believe.
     </h2>
     <div className="col-span-1 md:col-span-8">
       <p className="mb-4 text-xl text-neutral-600 md:text-2xl">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi,
-        blanditiis soluta eius quam modi aliquam quaerat odit deleniti minima
-        maiores voluptate est ut saepe accusantium maxime doloremque nulla
-        consectetur possimus.
+        At XXX Rated, our mission is to redefine personal care by crafting
+        premium deodorants that deliver unparalleled freshness, confidence, and
+        style. Rooted in the rich heritage of India, we aim to blend the finest
+        local ingredients with advanced formulations, ensuring long-lasting
+        protection that resonates with the bold and vibrant spirit of our
+        customers.
       </p>
       <p className="mb-8 text-xl text-neutral-600 md:text-2xl">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
-        reiciendis blanditiis aliquam aut fugit sint.
+        We are committed to sustainability, ethical practices, and creating
+        products that not only enhance personal well-being but also contribute
+        positively to our environment and community.
+      </p>
+      {/* <button className="w-full rounded bg-neutral-900 px-9 py-4 text-xl text-white transition-colors hover:bg-neutral-700 md:w-fit">
+        Learn more <FiArrowUpRight className="inline" />
+      </button> */}
+    </div>
+  </div>
+);
+const VisionContent = () => (
+  <div className="mx-auto grid max-w-5xl grid-cols-1 gap-8 px-4 pb-24 pt-12 md:grid-cols-12">
+    <h2 className="col-span-1 text-3xl font-bold md:col-span-4">
+      Our Vision which appends to each and every corner of this country.
+    </h2>
+    <div className="col-span-1 md:col-span-8">
+      <p className="mb-4 text-xl text-neutral-600 md:text-2xl">
+        Our vision is to become the leading deodorant brand in India, known for
+        innovation, quality, and a deep connection to our cultural roots. We
+        aspire to inspire confidence in every individual, empowering them to
+        express their true selves without compromise.
+      </p>
+      <p className="mb-8 text-xl text-neutral-600 md:text-2xl">
+        By continually pushing the boundaries of what's possible in personal
+        care, XXX Rated envisions a future where everyone can experience the
+        perfect balance of freshness, protection, and style, with a touch of
+        Indian excellence in every spray.
+      </p>
+      {/* <button className="w-full rounded bg-neutral-900 px-9 py-4 text-xl text-white transition-colors hover:bg-neutral-700 md:w-fit">
+        Learn more <FiArrowUpRight className="inline" />
+      </button> */}
+    </div>
+  </div>
+);
+const ABoutContent = () => (
+  <div className="mx-auto grid max-w-5xl grid-cols-1 gap-8 px-4 pb-24 pt-12 md:grid-cols-12">
+    {/* <h2 className="col-span-1 text-3xl font-bold md:col-span-4">
+      Additional content explaining the above card here
+    </h2> */}
+    <div className="col-span-12">
+      <p className="mb-4 text-xl text-neutral-600 md:text-2xl">
+        Welcome to XXX Rated, where confidence meets freshness. Born and crafted
+        in the vibrant landscapes of India, XXX Rated is more than just a
+        deodorant—it's a statement of boldness, individuality, and a commitment
+        to a healthier lifestyle. At XXX Rated, we believe that what you put on
+        your body matters. That's why our formulas are meticulously developed to
+        be free from harmful chemicals like triclosan. <br /> We’re committed to
+        providing a safer alternative without compromising on performance,
+        ensuring that every spray leaves you feeling fresh, confident, and ready
+        to conquer the day.
+      </p>
+      <p className="mb-8 text-xl text-neutral-600 md:text-2xl">
+        Our inspiration comes from the diverse and dynamic spirit of India—a
+        country that’s always on the move, always evolving, and always staying
+        true to its roots. We harness the richness of natural ingredients and
+        blend them with cutting-edge technology to create fragrances that not
+        only protect but also empower.
       </p>
       {/* <button className="w-full rounded bg-neutral-900 px-9 py-4 text-xl text-white transition-colors hover:bg-neutral-700 md:w-fit">
         Learn more <FiArrowUpRight className="inline" />

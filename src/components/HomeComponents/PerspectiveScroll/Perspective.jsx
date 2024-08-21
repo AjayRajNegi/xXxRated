@@ -1,5 +1,6 @@
 import Lenis from "lenis";
-import vd1 from "/Sequence01comp.mp4";
+import vd1 from "../../../assets/videos/Sequence01.mp4";
+import scrollImage from "../../../assets/images/OUD/About1.jpg";
 import { useEffect, useRef } from "react";
 import { useScroll, useTransform, motion } from "framer-motion";
 
@@ -69,7 +70,7 @@ const Section2 = ({ scrollYProgress }) => {
         className="bg-black md:hidden"
       />
       <img
-        src="/coat.webp"
+        src={scrollImage}
         alt="img"
         placeholder="blur"
         className="mx-auto hidden h-full md:block"

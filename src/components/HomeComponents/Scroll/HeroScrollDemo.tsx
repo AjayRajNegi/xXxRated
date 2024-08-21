@@ -1,4 +1,5 @@
-import i from "/coat.webp";
+import i from "./tab.jpg";
+import j from "./tabS.jpg";
 import { ContainerScroll } from "./ContainerScroll";
 
 export default function HeroScrollDemo() {
@@ -21,7 +22,15 @@ export default function HeroScrollDemo() {
           alt="hero"
           height={720}
           width={1400}
-          className="mx-auto h-full rounded-2xl object-cover object-left-top"
+          className="mx-auto hidden h-full rounded-2xl object-cover object-left-top md:block"
+          draggable={false}
+        />
+        <img
+          src={j}
+          alt="hero"
+          height={720}
+          width={1400}
+          className="mx-auto block h-full rounded-2xl object-cover object-left-top md:hidden"
           draggable={false}
         />
       </ContainerScroll>
