@@ -14,7 +14,7 @@ const HoverImageLinks = () => {
           imgSrc="/PocketHover.jpg"
         />
         <Link
-          heading="Service"
+          heading="Services"
           subheading="Towards customer is Exceptional."
           imgSrc="/BoldZoom.jpg"
         />
