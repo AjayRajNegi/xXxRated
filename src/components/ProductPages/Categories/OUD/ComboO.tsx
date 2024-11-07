@@ -1,15 +1,15 @@
 import { Footer, Navbar, Navigation } from "../../../Index";
-import oG from "../../../../assets/images/OUD/GreenOud.png";
+import oG from "../../../../assets/images/OUD/BodyCombo.png";
 import OudImages from "./OudImages";
 
-const GreenOud = () => {
+const ComboOud = () => {
   return (
     <>
       <Navbar />
       <Navigation />
       <div className="m-auto hidden max-w-[100%] md:flex">
-        <div className="relative h-[180vh] w-[35%] bg-green-200">
-          <div className="fixed left-[17.5%] top-[50%] h-[32rem] w-[20rem] -translate-x-1/2 -translate-y-1/2 bg-green-300 p-5">
+        <div className="relative h-[180vh] w-[35%] bg-zinc-200">
+          <div className="fixed left-[17.5%] top-[50%] h-[32rem] w-[20rem] -translate-x-1/2 -translate-y-1/2 bg-zinc-300 p-5">
             <img
               src={oG}
               alt=""
@@ -19,8 +19,8 @@ const GreenOud = () => {
         </div>
         <div className="h-[180vh] w-[65%] bg-white">
           <div className="p-10 pt-[12rem]">
-            <h1 className="text-6xl font-bold tracking-tight text-green-500">
-              ICONIC
+            <h1 className="text-6xl font-bold tracking-tight text-zinc-500">
+              BODY-SPRAY COMBO
             </h1>
             <div className="text-xl font-semibold">
               Introducing a new Gas Body Spray by xXx Rated Deo, wrapped up with
@@ -31,7 +31,7 @@ const GreenOud = () => {
               little of it, and get rid of body odour all day long.
             </div>
             <div className="flex items-center justify-center gap-3">
-              <button className="mt-[50px] w-fit bg-green-300 px-4 py-2 text-2xl font-semibold text-black transition-colors hover:bg-green-200">
+              <button className="mt-[50px] w-fit bg-zinc-300 px-4 py-2 text-2xl font-semibold text-black transition-colors hover:bg-zinc-200">
                 <span className="italic">Buy It Now @ </span>₹399
               </button>
             </div>
@@ -42,14 +42,14 @@ const GreenOud = () => {
         </div>
       </div>
       {/* Mobile */}
-      <div className="block bg-green-200 pt-8 md:hidden">
-        <div className="m-8 bg-green-300">
+      <div className="block bg-zinc-200 pt-8 md:hidden">
+        <div className="m-8 bg-zinc-300">
           <img src={oG} alt="" className="px-4" />
         </div>
         <div>
           <div className="p-10">
-            <h1 className="text-6xl font-bold tracking-tight text-green-500">
-              ICONIC
+            <h1 className="text-6xl font-bold tracking-tight text-zinc-500">
+              BODY-SPRAY COMBO
             </h1>
             <div className="text-md font-semibold">
               Introducing a new Gas Body Spray by xXx Rated Deo, wrapped up with
@@ -60,7 +60,7 @@ const GreenOud = () => {
               little of it, and get rid of body odour all day long.
             </div>
             <div className="flex items-center justify-center gap-3">
-              <button className="mt-[50px] w-fit bg-green-300 px-4 py-2 text-2xl font-semibold text-black transition-colors hover:bg-green-200">
+              <button className="mt-[50px] w-fit bg-zinc-300 px-4 py-2 text-2xl font-semibold text-black transition-colors hover:bg-zinc-200">
                 <span className="italic">Buy It Now @ </span>₹399
               </button>
             </div>
@@ -75,4 +75,4 @@ const GreenOud = () => {
   );
 };
 
-export default GreenOud;
+export default ComboOud;

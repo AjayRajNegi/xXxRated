@@ -1,3 +1,4 @@
+import Community from "../../components/HomeComponents/CommunityImage/Community";
 import {
   LoadingAnimation,
   Mask,
@@ -17,7 +18,8 @@ const Home = () => {
       <Mask />
       <Squishy />
       <HeroScrollDemo />
-      <Perspective />
+      <Community />
+      {/* <Perspective /> */}
       <HorizontalCarousal />
       <ChooseSection />
       <HoverImageLinks />

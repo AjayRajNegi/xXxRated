@@ -6,6 +6,7 @@ import oB from "../../../assets/images/OUD/BlueOud.png";
 import oR from "../../../assets/images/OUD/Spizy-removebg.png";
 import oG from "../../../assets/images/OUD/GreenOud.png";
 import oBl from "../../../assets/images/OUD/BlackOud.png";
+import oBC from "../../../assets/images/OUD/BodyCombo.png";
 
 import zW from "../../../assets/images/zW.png";
 import zB from "../../../assets/images/zB.png";
@@ -162,6 +163,14 @@ const ProductMain = () => {
             <p>COMBO BODY-SPRAY</p>
             <img src={zCB} alt="" className="h-[275px] pt-[100px]" />
           </Link> */}
+          <Link to="/comboO" className="products-product h-[340px]">
+            <p>COMBO BODY-SPRAY</p>
+            <img
+              src={oBC}
+              alt=""
+              className="relative top-8 h-[225px] min-w-[350px] pt-[100px]"
+            />
+          </Link>
           <Link to="/comboZ" className="products-product h-[340px]">
             <p>COMBO ZIPLINE</p>
             <img src={zCB} alt="" className="h-[275px] pt-[100px]" />
