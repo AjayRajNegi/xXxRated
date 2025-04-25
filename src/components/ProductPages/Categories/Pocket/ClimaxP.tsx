@@ -1,5 +1,5 @@
 import { Footer, Navbar, Navigation } from "../../../Index";
-import nC from "../../../../assets/images/Pocket/PC.png";
+import nC from "../../../../assets/images/Pocket/PC.webp";
 import PImages from "./PImages";
 
 const ClimaxP = () => {

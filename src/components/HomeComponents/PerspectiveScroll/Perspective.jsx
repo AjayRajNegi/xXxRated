@@ -1,6 +1,6 @@
 import Lenis from "lenis";
 import vd1 from "../../../assets/videos/Sequence01.mp4";
-import scrollImage from "../../../assets/images/community.jpg";
+import scrollImage from "../../../assets/images/community.webp";
 import { useEffect, useRef } from "react";
 import { useScroll, useTransform, motion } from "framer-motion";
 

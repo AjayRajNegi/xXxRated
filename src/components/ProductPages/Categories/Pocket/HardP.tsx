@@ -1,5 +1,5 @@
 import { Footer, Navbar, Navigation } from "../../../Index";
-import nH from "../../../../assets/images/Pocket/PH.png";
+import nH from "../../../../assets/images/Pocket/PH.webp";
 import PImages from "./PImages";
 
 const HardP = () => {

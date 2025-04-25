@@ -1,6 +1,6 @@
-import zW from "../../../../assets/images/Zip/W.jpeg";
-import zB from "../../../../assets/images/Zip/B.jpg";
-import zBl from "../../../../assets/images/Zip/Bl.jpeg";
+import zW from "../../../../assets/images/Zip/W.webp";
+import zB from "../../../../assets/images/Zip/B.webp";
+import zBl from "../../../../assets/images/Zip/Bl.webp";
 
 const ZipImages = () => {
   return (

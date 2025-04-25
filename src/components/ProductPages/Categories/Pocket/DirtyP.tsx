@@ -1,5 +1,5 @@
 import { Footer, Navbar, Navigation } from "../../../Index";
-import nD from "../../../../assets/images/Pocket/PD.png";
+import nD from "../../../../assets/images/Pocket/PD.webp";
 import PImages from "./PImages";
 
 const dirtyP = () => {

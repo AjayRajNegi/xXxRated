@@ -1,5 +1,5 @@
 import { Footer, Navbar, Navigation } from "../../../Index";
-import nCB from "../../../../assets/images/NG/nGasCombo.png";
+import nCB from "../../../../assets/images/NG/nGasCombo.webp";
 import NGImages from "./NGImages";
 
 const ComboN = () => {

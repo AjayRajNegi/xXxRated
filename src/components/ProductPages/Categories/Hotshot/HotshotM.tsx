@@ -1,5 +1,5 @@
 import { Footer, Navbar, Navigation, DragCards } from "../../../Index";
-import hM from "../../../../assets/images/hotshotM.png";
+import hM from "../../../../assets/images/hotshotM.webp";
 
 const PleasureG = () => {
   return (

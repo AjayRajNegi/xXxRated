@@ -1,5 +1,5 @@
 import { Footer, Navbar, Navigation } from "../../../Index";
-import zCB from "../../../../assets/images/Zip/zipCombo.png";
+import zCB from "../../../../assets/images/Zip/zipCombo.webp";
 import ZipImages from "./ZipImages";
 
 const ComboZ = () => {

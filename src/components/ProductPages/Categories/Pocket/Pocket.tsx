@@ -1,5 +1,5 @@
 import { Footer, Navbar, Navigation } from "../../../Index";
-import pT from "../../../../assets/images/Pocket.png";
+import pT from "../../../../assets/images/Pocket.webp";
 import PImages from "./PImages";
 
 const PleasureG = () => {

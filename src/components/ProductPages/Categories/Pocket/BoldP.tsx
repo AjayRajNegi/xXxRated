@@ -1,5 +1,5 @@
 import { Footer, Navbar, Navigation } from "../../../Index";
-import nB from "../../../../assets/images/Pocket/PB.png";
+import nB from "../../../../assets/images/Pocket/PB.webp";
 import PImages from "./PImages";
 
 const BoldP = () => {

@@ -31,7 +31,7 @@ const Card = () => {
           Pro
         </span> */}
         <img
-          src="/zBl.png"
+          src="/zBl.webp"
           alt=""
           className="absolute left-7 top-5 z-10 h-[280px]"
         />

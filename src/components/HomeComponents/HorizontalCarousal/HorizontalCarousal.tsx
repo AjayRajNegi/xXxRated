@@ -71,28 +71,28 @@ type CardType = {
 
 const cards: CardType[] = [
   {
-    url: "/OUD/Bkoud.jpg",
+    url: "/OUD/Bkoud.webp",
     title: "Title 1",
     id: 1,
   },
   {
-    url: "/OUD/Woud.jpg",
+    url: "/OUD/Woud.webp",
     title: "Title 5",
     id: 5,
   },
   {
-    url: "/OUD/Roud.jpg",
+    url: "/OUD/Roud.webp",
     title: "Title 2",
     id: 2,
   },
 
   {
-    url: "/OUD/Goud.jpg",
+    url: "/OUD/Goud.webp",
     title: "Title 3",
     id: 3,
   },
   {
-    url: "/OUD/Boud.jpg",
+    url: "/OUD/Boud.webp",
     title: "Title 4",
     id: 4,
   },

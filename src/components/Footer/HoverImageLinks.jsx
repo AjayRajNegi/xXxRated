@@ -11,17 +11,17 @@ const HoverImageLinks = () => {
         <Link
           heading="Luxury"
           subheading="At very affordable Price."
-          imgSrc="/PocketHover.jpg"
+          imgSrc="/PocketHover.webp"
         />
         <Link
           heading="Services"
           subheading="Towards customer is Exceptional."
-          imgSrc="/BoldZoom.jpg"
+          imgSrc="/BoldZoom.webp"
         />
         <Link
           heading="Proudly"
           subheading="MADE IN INDIA"
-          imgSrc="/india.jpg"
+          imgSrc="/india.webp"
         />
       </div>
     </section>

@@ -1,7 +1,7 @@
-import gW from "../../../../assets/images/gB.png";
-import gG from "../../../../assets/images/gG.png";
-import gR from "../../../../assets/images/gP.png";
-import gO from "../../../../assets/images/gO.png";
+import gW from "../../../../assets/images/gB.webp";
+import gG from "../../../../assets/images/gG.webp";
+import gR from "../../../../assets/images/gP.webp";
+import gO from "../../../../assets/images/gO.webp";
 
 const GasImages = () => {
   return (

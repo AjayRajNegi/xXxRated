@@ -1,8 +1,8 @@
-import Picture1 from "../../../assets/images/Image1Cut.jpg";
-import Picture2 from "../../../assets/images/bcomp.jpg";
-import Picture3 from "../../../assets/images/Image3.jpg";
+import Picture1 from "../../../assets/images/Image1Cut.webp";
+import Picture2 from "../../../assets/images/bcomp.webp";
+import Picture3 from "../../../assets/images/Image3.webp";
 import Picture4 from "../../../assets/images/OUD/Roud.jpg";
-import Picture5 from "../../../assets/images/Image2.jpg";
+import Picture5 from "../../../assets/images/Image2.webp";
 import Picture6 from "../../../assets/images/OUD/Boud.jpg";
 import Picture7 from "../../../assets/images/OUD/Woud.jpg";
 import { useRef } from "react";

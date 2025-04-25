@@ -8,31 +8,31 @@ import oG from "../../../assets/images/OUD/GreenOud.png";
 import oBl from "../../../assets/images/OUD/BlackOud.png";
 import oBC from "../../../assets/images/OUD/BodyCombo.png";
 
-import zW from "../../../assets/images/zW.png";
-import zB from "../../../assets/images/zB.png";
-import zBl from "../../../assets/images/zBl.png";
-import zCB from "../../../assets/images/Zip/zipCombo.png";
+import zW from "../../../assets/images/zW.webp";
+import zB from "../../../assets/images/zB.webp";
+import zBl from "../../../assets/images/zBl.webp";
+import zCB from "../../../assets/images/Zip/zipCombo.webp";
 
-import nB from "../../../assets/images/nB.png";
-import nC from "../../../assets/images/nC.png";
-import nD from "../../../assets/images/nD.png";
-import nH from "../../../assets/images/nH.png";
-import nCB from "../../../assets/images/NG/nGasCombo.png";
+import nB from "../../../assets/images/nB.webp";
+import nC from "../../../assets/images/nC.webp";
+import nD from "../../../assets/images/nD.webp";
+import nH from "../../../assets/images/nH.webp";
+import nCB from "../../../assets/images/NG/nGasCombo.webp";
 
-import gB from "../../../assets/images/gB.png";
-import gG from "../../../assets/images/gG.png";
-import gO from "../../../assets/images/gO.png";
-import gP from "../../../assets/images/gP.png";
-import gR from "../../../assets/images/gR.png";
+import gB from "../../../assets/images/gB.webp";
+import gG from "../../../assets/images/gG.webp";
+import gO from "../../../assets/images/gO.webp";
+import gP from "../../../assets/images/gP.webp";
+import gR from "../../../assets/images/gR.webp";
 
-import pBP from "../../../assets/images/Pocket/PBP.png";
-import pCP from "../../../assets/images/Pocket/PCP.png";
-import pDP from "../../../assets/images/Pocket/PDP.png";
-import pHP from "../../../assets/images/Pocket/PHP.png";
+import pBP from "../../../assets/images/Pocket/PBP.webp";
+import pCP from "../../../assets/images/Pocket/PCP.webp";
+import pDP from "../../../assets/images/Pocket/PDP.webp";
+import pHP from "../../../assets/images/Pocket/PHP.webp";
 
-import pT from "../../../assets/images/Pocket.png";
-import hT from "../../../assets/images/hotshot.png";
-import hM from "../../../assets/images/hotshotM.png";
+import pT from "../../../assets/images/Pocket.webp";
+import hT from "../../../assets/images/hotshot.webp";
+import hM from "../../../assets/images/hotshotM.webp";
 
 const ProductMain = () => {
   return (

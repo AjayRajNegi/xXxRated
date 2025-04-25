@@ -37,7 +37,7 @@ const ContactMain = () => {
           </div>
         </div>
         <div className="contact-headquater grid grid-cols-1 md:grid-cols-2">
-          <img src="Contact.jpg" alt="" />
+          <img src="Contact.webp" alt="" />
           <div className="contact-headquater-details flex flex-col justify-between gap-3">
             <p className="pt-5 text-xl">HEADQUATER</p>
             <p className="text-2xl md:text-5xl">

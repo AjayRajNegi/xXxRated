@@ -1,7 +1,7 @@
-import gW from "../../../../assets/images/Pocket/PDP.png";
-import gG from "../../../../assets/images/Pocket/PBP.png";
-import gR from "../../../../assets/images/Pocket/PCP.png";
-import gO from "../../../../assets/images/Pocket/PHP.png";
+import gW from "../../../../assets/images/Pocket/PDP.webp";
+import gG from "../../../../assets/images/Pocket/PBP.webp";
+import gR from "../../../../assets/images/Pocket/PCP.webp";
+import gO from "../../../../assets/images/Pocket/PHP.webp";
 
 const PImages = () => {
   return (

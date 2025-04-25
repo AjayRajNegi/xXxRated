@@ -1,5 +1,5 @@
 import { Footer, Navbar, Navigation } from "../../../Index";
-import nB from "../../../../assets/images/nB.png";
+import nB from "../../../../assets/images/nB.webp";
 import NGImages from "./NGImages";
 
 const PleasureG = () => {

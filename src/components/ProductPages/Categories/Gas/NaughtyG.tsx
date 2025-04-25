@@ -1,5 +1,5 @@
 import { Footer, Navbar, Navigation } from "../../../Index";
-import gP from "../../../../assets/images/gP.png";
+import gP from "../../../../assets/images/gP.webp";
 import GasImages from "./GasImages";
 
 const PleasureG = () => {

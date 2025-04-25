@@ -31,7 +31,7 @@ const Card = () => {
           Pro
         </span> */}
         <img
-          src="/OUD/Spizy-removebg.png"
+          src="/OUD/Spizy-removebg.webp"
           alt=""
           className="absolute -top-[100px] z-10 h-[450px]"
         />

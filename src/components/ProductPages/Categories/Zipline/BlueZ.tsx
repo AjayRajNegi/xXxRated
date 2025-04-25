@@ -1,5 +1,5 @@
 import { Footer, Navbar, Navigation } from "../../../Index";
-import zB from "../../../../assets/images/zB.png";
+import zB from "../../../../assets/images/zB.webp";
 import ZipImages from "./ZipImages";
 
 const PleasureG = () => {
