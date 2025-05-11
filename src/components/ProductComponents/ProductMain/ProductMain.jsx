@@ -8,6 +8,10 @@ import oG from "../../../assets/images/OUD/GreenOud.png";
 import oBl from "../../../assets/images/OUD/BlackOud.png";
 import oBC from "../../../assets/images/OUD/BodyCombo.png";
 
+import lg from "../../../assets/images/EDP/legend.jpg";
+import wh from "../../../assets/images/EDP/whisky.jpg";
+import so from "../../../assets/images/EDP/softly.jpg";
+
 import zW from "../../../assets/images/zW.webp";
 import zB from "../../../assets/images/zB.webp";
 import zBl from "../../../assets/images/zBl.webp";
@@ -56,25 +60,43 @@ const ProductMain = () => {
           <div className="products-product products-product-header flex items-center justify-center">
             <p className="products-heading text-3xl">BODY SPRAY</p>
           </div>
-          <Link to="/blackOUD" className="products-product">
+          <Link to="/oud/black" className="products-product">
             <p>SUPREME</p>
             <img src={oBl} alt="" />
           </Link>
-          <Link to="/blueOUD" className="products-product">
+          <Link to="/oud/blue" className="products-product">
             <p>AQUAX</p>
             <img src={oB} alt="" />
           </Link>
-          <Link to="/redOUD" className="products-product">
+          <Link to="/oud/red" className="products-product">
             <p>SPIZY</p>
             <img src={oR} alt="" />
           </Link>
-          <Link to="/greenOUD" className="products-product">
+          <Link to="/oud/green" className="products-product">
             <p>ICONIC</p>
             <img src={oG} alt="" />
           </Link>
-          <Link to="/whiteOUD" className="products-product">
+          <Link to="/oud/white" className="products-product">
             <p>WILD </p>
             <img src={oW} alt="" className="h-450px] relative top-8" />
+          </Link>
+        </div>
+        {/* EDP Container */}
+        <div className="products-main oud grid grid-cols-1 gap-7 md:grid-cols-3 2xl:grid-cols-4">
+          <div className="products-product products-product-header flex items-center justify-center">
+            <p className="products-heading text-3xl">Eau De Perfum</p>
+          </div>
+          <Link to="/edp" className="products-product">
+            <p>LEGEND</p>
+            <img src={lg} alt="" />
+          </Link>
+          <Link to="/edp/whisky" className="products-product">
+            <p>WHISKY</p>
+            <img src={wh} alt="" />
+          </Link>
+          <Link to="/edp/softly" className="products-product">
+            <p>SOFTLY</p>
+            <img src={so} alt="" />
           </Link>
         </div>
         {/* Zipline Container */}
@@ -82,15 +104,15 @@ const ProductMain = () => {
           <div className="products-product products-product-header flex items-center justify-center">
             <p className="products-heading text-3xl">ZIP LINE</p>
           </div>
-          <Link to="/whiteZ" className="products-product">
+          <Link to="/zipline/white" className="products-product">
             <p>ZIP-WHITE</p>
             <img src={zW} alt="" />
           </Link>
-          <Link to="/blueZ" className="products-product">
+          <Link to="/zipline/blue" className="products-product">
             <p>ZIP-BLUE</p>
             <img src={zB} alt="" />
           </Link>
-          <Link to="/blackZ" className="products-product">
+          <Link to="/zipline/black" className="products-product">
             <p>ZIP-BLACK</p>
             <img src={zBl} alt="" />
           </Link>
@@ -100,19 +122,19 @@ const ProductMain = () => {
           <div className="products-product products-product-header flex items-center justify-center">
             <p className="products-heading text-3xl">NO-GAS</p>
           </div>
-          <Link to="/climaxN" className="products-product">
+          <Link to="/nogas/climax" className="products-product">
             <p>CLIMAX NO-GAS</p>
             <img src={nC} alt="" />
           </Link>
-          <Link to="/boldN" className="products-product">
+          <Link to="/nogas/bold" className="products-product">
             <p>BOLD NO-GAS</p>
             <img src={nB} alt="" />
           </Link>
-          <Link to="/dirtyN" className="products-product">
+          <Link to="/nogas/dirty" className="products-product">
             <p>DIRTY NO-GAS</p>
             <img src={nD} alt="" />
           </Link>
-          <Link to="/hardN" className="products-product">
+          <Link to="/nogas/hard" className="products-product">
             <p>HARD NO-GAS</p>
             <img src={nH} alt="" />
           </Link>
@@ -122,12 +144,11 @@ const ProductMain = () => {
           <div className="products-product products-product-header flex items-center justify-center">
             <p className="products-heading text-3xl">HOTSHOT</p>
           </div>
-
           <Link to="/hotshot" className="products-product">
             <p>WOMEN</p>
             <img src={hT} alt="" />
           </Link>
-          <Link to="/hotshotM" className="products-product">
+          <Link to="/hotshot/m" className="products-product">
             <p>MEN</p>
             <img src={hM} alt="" />
           </Link>
@@ -137,19 +158,19 @@ const ProductMain = () => {
           <div className="products-product products-product-header flex items-center justify-center">
             <p className="products-heading text-3xl">POCKET</p>
           </div>
-          <Link to="/climaxP" className="products-product">
+          <Link to="/pocket/climax" className="products-product">
             <p>CLIMAX NO-GAS POCKET</p>
             <img src={pCP} alt="" />
           </Link>
-          <Link to="/boldP" className="products-product">
+          <Link to="/pocket/bold" className="products-product">
             <p>BOLD NO-GAS POCKET</p>
             <img src={pBP} alt="" />
           </Link>
-          <Link to="/dirtyP" className="products-product">
+          <Link to="/pocket/dirty" className="products-product">
             <p>DIRTY NO-GAS POCKET</p>
             <img src={pDP} alt="" />
           </Link>
-          <Link to="/hardP" className="products-product">
+          <Link to="/pocket/hard" className="products-product">
             <p>HARD NO-GAS POCKET</p>
             <img src={pHP} alt="" />
           </Link>
@@ -159,11 +180,7 @@ const ProductMain = () => {
           <div className="products-product products-product-header flex items-center justify-center">
             <p className="products-heading text-3xl">COMBOS</p>
           </div>
-          {/* <Link to="/comboO" className="products-product h-[340px]">
-            <p>COMBO BODY-SPRAY</p>
-            <img src={zCB} alt="" className="h-[275px] pt-[100px]" />
-          </Link> */}
-          <Link to="/comboO" className="products-product h-[340px]">
+          <Link to="/oud/combo" className="products-product h-[340px]">
             <p>COMBO BODY-SPRAY</p>
             <img
               src={oBC}
@@ -171,11 +188,11 @@ const ProductMain = () => {
               className="relative top-8 h-[225px] min-w-[350px] pt-[100px]"
             />
           </Link>
-          <Link to="/comboZ" className="products-product h-[340px]">
+          <Link to="/zipline/combo" className="products-product h-[340px]">
             <p>COMBO ZIPLINE</p>
             <img src={zCB} alt="" className="h-[275px] pt-[100px]" />
           </Link>
-          <Link to="/comboN" className="products-product">
+          <Link to="/nogas/combo" className="products-product">
             <p>COMBO NO-GAS</p>
             <img src={nCB} alt="" className="h-[275px] pt-[100px]" />
           </Link>
@@ -187,7 +204,7 @@ const ProductMain = () => {
             <p>HOTSHOT WOMEN</p>
             <img src={hT} alt="" />
           </Link>
-          <Link to="/hotshotM" className="products-product">
+          <Link to="/hotshot/m" className="products-product">
             <p>HOTSHOT MEN</p>
             <img src={hM} alt="" />
           </Link>
@@ -198,23 +215,23 @@ const ProductMain = () => {
           <div className="products-product products-product-header flex items-center justify-center">
             <p className="products-heading text-3xl">GAS</p>
           </div>
-          <Link to="/intimateG" className="products-product">
+          <Link to="/gas/intimate" className="products-product">
             <p>INTIMATE R</p>
             <img src={gO} alt="" />
           </Link>
-          <Link to="/pleasureG" className="products-product">
+          <Link to="/gas/pleasure" className="products-product">
             <p>PLEASURE B</p>
             <img src={gB} alt="" />
           </Link>
-          <Link to="/naughtyG" className="products-product">
+          <Link to="/gas/naughty" className="products-product">
             <p>NAUGHTY P</p>
             <img src={gP} alt="" />
           </Link>
-          <Link to="/foreplayG" className="products-product">
+          <Link to="/gas/foreplay" className="products-product">
             <p>FOREPLAY G</p>
             <img src={gG} alt="" />
           </Link>
-          <Link to="/sensualG" className="products-product">
+          <Link to="/gas/sensual" className="products-product">
             <p>SENSUAL R</p>
             <img src={gR} alt="" />
           </Link>

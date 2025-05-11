@@ -7,7 +7,7 @@ const Navbar = () => {
     <nav className="fixed top-0 z-30 hidden h-max w-full items-center justify-between px-4 pt-4 md:flex md:px-8">
       <div className="flex items-center space-x-2">
         <h1 className="text-xl font-bold text-white md:text-2xl">XXX RATED</h1>
-        <img src="./wlogo.svg" alt="logo image" className="h-[3rem] w-[3rem]" />
+        <img src="/wlogo.svg" alt="logo image" className="h-[3rem] w-[3rem]" />
       </div>
       {/* Navbar for large devices. */}
       <ul

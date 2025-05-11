@@ -1,28 +1,24 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { AnimatePresence, motion } from "framer-motion";
 
 const FlyoutLinkBtn = () => {
   return (
     <div className="flex justify-center font-normal text-white">
-      <FlyoutLink href="#" FlyoutContent={PricingContent}>
-        PRODUCTS
-      </FlyoutLink>
+      <FlyoutLink FlyoutContent={PricingContent}>PRODUCTS</FlyoutLink>
     </div>
   );
 };
 
 const FlyoutLink = ({
   children,
-  href,
   FlyoutContent,
 }: {
   children: React.ReactNode;
-  href: string;
   FlyoutContent?: React.ElementType;
 }) => {
   const [open, setOpen] = useState(false);
-
+  const navigate = useNavigate();
   const showFlyout = FlyoutContent && open;
 
   return (
@@ -31,7 +27,10 @@ const FlyoutLink = ({
       onMouseLeave={() => setOpen(false)}
       className="relative h-fit w-fit"
     >
-      <Link to="/product" className="relative text-white">
+      <button
+        onClick={() => navigate("/product")}
+        className="relative text-white"
+      >
         {children}
         <span
           style={{
@@ -39,7 +38,7 @@ const FlyoutLink = ({
           }}
           className="absolute -bottom-2 -left-2 -right-2 h-1 origin-left scale-x-0 rounded-full bg-indigo-300 transition-transform duration-300 ease-out"
         />
-      </Link>
+      </button>
       <AnimatePresence>
         {showFlyout && (
           <motion.div
@@ -67,16 +66,16 @@ const PricingContent = () => {
         <Link to="/product" className="block text-sm hover:underline">
           NEW
         </Link>
-        <Link to="/product" className="block text-sm hover:underline">
+        <Link to="/zipline" className="block text-sm hover:underline">
           ZipLine
         </Link>
-        <Link to="/product" className="block text-sm hover:underline">
+        <Link to="/nogas" className="block text-sm hover:underline">
           NoGas
         </Link>
-        <Link to="/product" className="block text-sm hover:underline">
+        <Link to="/hotshot" className="block text-sm hover:underline">
           HotShot
         </Link>
-        <Link to="/product" className="block text-sm hover:underline">
+        <Link to="/pocket" className="block text-sm hover:underline">
           Pocket
         </Link>
       </div>

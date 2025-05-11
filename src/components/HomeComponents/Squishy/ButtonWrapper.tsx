@@ -40,23 +40,20 @@ const SpotlightButton = () => {
   }, []);
 
   return (
-    <>
-      <Link to="/product">
-        <motion.button
-          whileTap={{ scale: 0.985 }}
-          ref={btnRef}
-          className="relative w-full max-w-xs overflow-hidden rounded-lg bg-zinc-900 px-4 py-3 text-lg font-medium text-white"
-        >
-          <span className="pointer-events-none relative z-10 mix-blend-difference">
-            xXx-Plore
-          </span>
-          <span
-            ref={spanRef}
-            className="pointer-events-none absolute left-[50%] top-[50%] h-32 w-32 -translate-x-[50%] -translate-y-[50%] rounded-full bg-slate-100"
-          />
-        </motion.button>
-      </Link>
-    </>
+    <motion.button
+      whileTap={{ scale: 0.985 }}
+      ref={btnRef}
+      className="relative w-full max-w-xs overflow-hidden rounded-lg bg-zinc-900 px-4 py-3 text-lg font-medium text-white"
+      onClick={() => (window.location.href = "/product")}
+    >
+      <span className="pointer-events-none relative z-10 mix-blend-difference">
+        xXx-Plore
+      </span>
+      <span
+        ref={spanRef}
+        className="pointer-events-none absolute left-[50%] top-[50%] h-32 w-32 -translate-x-[50%] -translate-y-[50%] rounded-full bg-slate-100"
+      />
+    </motion.button>
   );
 };
 
